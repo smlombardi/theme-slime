@@ -1,0 +1,27 @@
+{
+    "name": "slime",
+    "displayName": "Slime Theme",
+    "description": "A port of my Atom theme",
+    "version": "0.0.0",
+    "publisher": "smlombardi",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/rokoroku/vscode-theme-darcula"
+    },
+    "engines": {
+        "vscode": "*"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "icon": "icon.svg",
+    "contributes": {
+        "themes": [
+            {
+                "label": "Slime",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Slime.tmTheme"
+            }
+        ]
+    }
+}
