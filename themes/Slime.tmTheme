@@ -64,7 +64,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#AB6767</string>
+                    <string>#C7AF3F</string>
                 </dict>
             </dict>
             <dict>
@@ -115,7 +115,11 @@
                 <key>name</key>
                 <string>Constant Other</string>
                 <key>scope</key>
-                <string>constant.character, constant.other, punctuation.definition.entity.html</string>
+                <string>
+                  constant.character, 
+                  constant.other, 
+                  punctuation.definition.entity.html
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
@@ -137,11 +141,16 @@
                 <key>name</key>
                 <string>Functions</string>
                 <key>scope</key>
-                <string>entity.name.function, meta.require, support.function.any-method, support.function</string>
+                <string>
+                  entity.name.function, 
+                  meta.require, 
+                  support.function.any-method, 
+                  support.function
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#ffc765</string>
+                    <string>#E1B974</string>
                 </dict>
             </dict>
             <dict>
@@ -196,7 +205,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#E7967D</string>
+                    <string>#c0c0c0</string>
                 </dict>
             </dict>
             <dict>
@@ -309,7 +318,10 @@
                 <key>name</key>
                 <string>Variables</string>
                 <key>scope</key>
-                <string>variable, punctuation.definition.variable.php, variable.other.php</string>
+                <string>variable, 
+                  punctuation.definition.variable.php, 
+                  variable.other.php
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
@@ -321,7 +333,10 @@
                 <key>name</key>
                 <string>_this</string>
                 <key>scope</key>
-                <string>variable.other.readwrite.js, variable.other.object.js</string>
+                <string>
+                  variable.other.readwrite.js, 
+                  variable.other.object.js
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
@@ -362,7 +377,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#b57b91</string>
+                    <string>#c0c0c0</string>
                 </dict>
             </dict>
             <dict>
@@ -602,7 +617,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#A5B3C9</string>
+                    <string>#C0C0C0</string>
                 </dict>
             </dict>
             <dict>
@@ -685,7 +700,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#778BAB</string>
+                    <string>#8C98AB</string>
                 </dict>
             </dict>
             <dict>
@@ -1232,25 +1247,17 @@
                     punctuation.section,
                     meta.at-rule.media.scss,
                     keyword.operator.css,
-                    source.css.scss
+                    source.css.scss,
+                    punctuation.accessor.js,
+                    punctuation.terminator
                 </string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#C0C0C0</string>
+                    <string>#C2C2C2</string>
                 </dict>
             </dict>
-            <dict>
-                <key>name</key>
-                <string>Terminator</string>
-                <key>scope</key>
-                <string>punctuation.terminator</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#C0C0C0</string>
-                </dict>
-            </dict>
+   
             <dict>
                 <key>name</key>
                 <string>Logical Operator</string>
@@ -1263,17 +1270,7 @@
                 </dict>
             </dict>
             <!-- JSON -->
-               <dict>
-                <key>name</key>
-                <string>Property Name</string>
-                <key>scope</key>
-                <string>support.type.property-name.json</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#DF9857</string>
-                </dict>
-            </dict>
+
 
             <dict>
                 <key>name</key>
@@ -1282,12 +1279,32 @@
                 <string>
                   meta.structure.dictionary.value.json, 
                   string.quoted.double.json,
-                  meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json support.type.property-name.json
+                  meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json support.type.property-name.json,
+                  meta.structure.dictionary.value.json string.quoted.double.json punctuation.definition.string.begin.json,
+                  meta.structure.dictionary.value.json string.quoted.double.json punctuation.definition.string.end.json
                 </string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
                     <string>#8F9C6C</string>
+                </dict>
+            </dict>
+
+            <dict>
+                <key>name</key>
+                <string>Property Name</string>
+                <key>scope</key>
+                <string>
+                  support.type.property-name.json,
+                  meta.structure.dictionary.json support.type.property-name.json punctuation.support.type.property-name.begin.json,
+                  meta.structure.dictionary.json support.type.property-name.json punctuation.support.type.property-name.end.json,
+                  meta.structure.array.json meta.structure.dictionary.json support.type.property-name.json,
+                  meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json support.type.property-name.json
+                </string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#DF9857</string>
                 </dict>
             </dict>
             <dict>
