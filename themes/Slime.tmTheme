@@ -56,7 +56,11 @@
                 <key>name</key>
                 <string>Boolean</string>
                 <key>scope</key>
-                <string>constant.language.boolean.true.js, constant.language.boolean.false.js, constant.language.null.js</string>
+                <string>
+                  constant.language.boolean.true.js, 
+                  constant.language.boolean.false.js, 
+                  constant.language.null.js
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
@@ -67,7 +71,12 @@
                 <key>name</key>
                 <string>Classes</string>
                 <key>scope</key>
-                <string>support.class, entity.name.class, entity.name.type.class, meta.class</string>
+                <string>
+                  support.class, 
+                  entity.name.class, 
+                  entity.name.type.class, 
+                  meta.class
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
@@ -78,11 +87,15 @@
                 <key>name</key>
                 <string>Comments</string>
                 <key>scope</key>
-                <string>comment, punctuation.definition.comment, ts.block.class.method.declaration.comment.line.double-slash, ts.punctuation.definition.decorator.objectliteral.object.member.array.literal.comment.line.double-slash, ts.class.comment.line.double-slash, js.function.punctuation.definition.block.object.objectliteral.member.comment.line.double-slash, meta.js.function.punctuation.definition.block.comment.line.double-slash, comment.block.html</string>
+                <string>
+                  comment, 
+                  punctuation.definition.comment, 
+                  comment.block.html
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#81868D</string>
+                    <string>#777C83</string>
                     <key>fontStyle</key>
                     <string></string>
                 </dict>
@@ -247,7 +260,9 @@
                     constant.character.escape.scss, 
                     constant.other.symbol, 
                     entity.other.inherited-class, 
-                    invalid.illegal.bad-ampersand.html
+                    invalid.illegal.bad-ampersand.html,
+                    punctuation.definition.string.begin,
+                    punctuation.definition.string.end
                 </string>
                 <key>settings</key>
                 <dict>
@@ -532,7 +547,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#C2A179</string>
+                    <string>#C2A279</string>
                 </dict>
             </dict>
             <dict>
@@ -619,7 +634,10 @@
                 <key>name</key>
                 <string>Preprocessor At Rule</string>
                 <key>scope</key>
-                <string>meta.preprocessor.at-rule keyword.control.at-rule, meta.at-rule.import, keyword.control.at-rule</string>
+                <string>
+                  meta.preprocessor.at-rule keyword.control.at-rule, 
+                  keyword.control.at-rule
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
@@ -667,7 +685,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#A5B3C9</string>
+                    <string>#778BAB</string>
                 </dict>
             </dict>
             <dict>
@@ -725,18 +743,21 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#E1B974</string>
+                    <string>#E1D18F</string>
                 </dict>
             </dict>
             <dict>
                 <key>name</key>
                 <string>CSS @import</string>
                 <key>scope</key>
-                <string>keyword.control.at-rule.import, keyword.control.at-rule.import punctuation.definition</string>
+                <string>
+                  keyword.control.at-rule.import, 
+                  keyword.control.at-rule.import punctuation.definition
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#8390A1</string>
+                    <string>#BDB66F</string>
                 </dict>
             </dict>            
             <dict>
@@ -775,11 +796,16 @@
                 <key>name</key>
                 <string>CSS @media attribute</string>
                 <key>scope</key>
-                <string>support.type.property-name.media</string>
+                <string>
+                  support.type.property-name.media,
+                  meta.at-rule.include.scss,
+                  meta.at-rule.include.scss support.constant.mathematical-symbols.scss
+
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#BABABA</string>
+                    <string>#C28C79</string>
                 </dict>
             </dict>
             <dict>
@@ -875,7 +901,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#A5C261</string>
+                    <string>#b3c770</string>
                 </dict>
             </dict>
             <dict>
@@ -893,11 +919,14 @@
                 <key>name</key>
                 <string>Sass Interpolation</string>
                 <key>scope</key>
-                <string>punctuation.definition.interpolation.begin.bracket.curly.scss, punctuation.definition.interpolation.end.bracket.curly.scss</string>
+                <string>
+                  punctuation.definition.interpolation.begin.bracket.curly.scss, 
+                  punctuation.definition.interpolation.end.bracket.curly.scss
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#A5C261</string>
+                    <string>#C7AF3F</string>
                 </dict>
             </dict>
             <dict>
@@ -922,7 +951,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#C38856</string>
+                    <string>#76A29D</string>
                 </dict>
             </dict>
 
@@ -931,7 +960,12 @@
                 <key>name</key>
                 <string>PHP delimiters</string>
                 <key>scope</key>
-                <string>punctuation.section.embedded.begin.php, punctuation.section.embedded.end.php, punctuation.section.embedded.begin.metatag.php, punctuation.section.embedded.end.metatag.php</string>
+                <string>
+                  punctuation.section.embedded.begin.php, 
+                  punctuation.section.embedded.end.php, 
+                  punctuation.section.embedded.begin.metatag.php, 
+                  punctuation.section.embedded.end.metatag.php
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
@@ -986,7 +1020,8 @@
                 <key>name</key>
                 <string>PHP booleans</string>
                 <key>scope</key>
-                <string>meta.tag.any.html.string.quoted.double.embedded.line.php.source.constant.language.inline, meta.embedded.line.php.source.constant.language</string>
+                <string>
+                  meta.tag.any.html.string.quoted.double.embedded.line.php.source.constant.language.inline, meta.embedded.line.php.source.constant.language</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
@@ -1193,7 +1228,11 @@
                     block.punctuation, 
                     brace.array.literal.square, 
                     brace.type.square, 
-                    punctuation.decorator.objectliteral.object.member.accessor, 
+                    punctuation.decorator.objectliteral.object.member.accessor,
+                    punctuation.section,
+                    meta.at-rule.media.scss,
+                    keyword.operator.css,
+                    source.css.scss
                 </string>
                 <key>settings</key>
                 <dict>
@@ -1342,7 +1381,10 @@
                 <key>name</key>
                 <string>Attribute Values</string>
                 <key>scope</key>
-                <string>string.quoted.double.html, meta.template string.quoted.double</string>
+                <string>
+                  string.quoted.double.html, 
+                  meta.template string.quoted.double
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
