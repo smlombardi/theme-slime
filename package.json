@@ -6,7 +6,7 @@
     "publisher": "smlombardi",
     "repository": {
         "type": "git",
-        "url": "https://github.com/rokoroku/vscode-theme-darcula"
+        "url": "https://github.com/smlombardi/theme-slime.git"
     },
     "engines": {
         "vscode": "*"

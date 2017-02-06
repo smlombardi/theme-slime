@@ -979,12 +979,14 @@
                   punctuation.section.embedded.begin.php, 
                   punctuation.section.embedded.end.php, 
                   punctuation.section.embedded.begin.metatag.php, 
-                  punctuation.section.embedded.end.metatag.php
+                  punctuation.section.embedded.end.metatag.php,
+                  text.html.php meta.embedded.line.php punctuation.section.embedded.end.metatag.php source.php,
+                  text.html.php meta.embedded.block.php punctuation.section.embedded.end.metatag.php source.php
                 </string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#CC7832</string>
+                    <string>#CD6A50</string>
                 </dict>
             </dict>
             <dict>
@@ -1011,6 +1013,17 @@
             </dict>
             <dict>
                 <key>name</key>
+                <string>PHP Function</string>
+                <key>scope</key>
+                <string>meta.function-call.php</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#C0A3BB</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>name</key>
                 <string>Escape Characters</string>
                 <key>scope</key>
                 <string>constant.character.escape</string>
@@ -1018,17 +1031,6 @@
                 <dict>
                     <key>foreground</key>
                     <string>#96b5b4</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>Embedded</string>
-                <key>scope</key>
-                <string>punctuation.section.embedded, variable.interpolation</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#9975ab</string>
                 </dict>
             </dict>
             <dict>
@@ -1045,37 +1047,28 @@
             </dict>
             <dict>
                 <key>name</key>
-                <string>PHP Numbers</string>
-                <key>scope</key>
-                <string>constant.numeric.php</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#6696bd</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>PHP Line Terminator</string>
-                <key>scope</key>
-                <string>punctuation.terminator.expression.php</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#CC7832</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
                 <string>PHP Control Keywords</string>
                 <key>scope</key>
                 <string>keyword.control.php</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#AB6767</string>
+                    <string>#E9D38D</string>
                 </dict>
             </dict>
+            <dict>
+                <key>name</key>
+                <string>PHP Echo</string>
+                <key>scope</key>
+                <string>support.function.construct.output.php</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#E9D38D</string>
+                </dict>
+            </dict>
+
+
             <!-- invalid -->
             <dict>
                 <key>name</key>
@@ -1145,6 +1138,19 @@
             </dict>
             <dict>
                 <key>name</key>
+                <string>Text</string>
+                <key>scope</key>
+                <string>meta.paragraph.markdown</string>
+                <key>settings</key>
+                <dict>
+                    <key>fontStyle</key>
+                    <string></string>
+                    <key>foreground</key>
+                    <string>#c0c0c0</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>name</key>
                 <string>Italic</string>
                 <key>scope</key>
                 <string>markup.italic</string>
@@ -1182,7 +1188,11 @@
                 <key>name</key>
                 <string>Link Url</string>
                 <key>scope</key>
-                <string>meta.link, meta.paragraph.inline.link.underline.detected-link</string>
+                <string>
+                    meta.link, 
+                    meta.paragraph.inline.link.underline.detected-link,
+                    markup.underline.link.image.markdown
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
@@ -1249,7 +1259,10 @@
                     keyword.operator.css,
                     source.css.scss,
                     punctuation.accessor.js,
-                    punctuation.terminator
+                    punctuation.terminator,
+                    text.html.php meta.tag.block.any.html,
+                    text.html.php meta.embedded.block.php source.php,
+                    text.html.php meta.embedded.line.php source.php
                 </string>
                 <key>settings</key>
                 <dict>
@@ -1269,9 +1282,8 @@
                     <string>#DF9857</string>
                 </dict>
             </dict>
+
             <!-- JSON -->
-
-
             <dict>
                 <key>name</key>
                 <string>Property Value</string>
