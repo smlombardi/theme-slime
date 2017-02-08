@@ -4,9 +4,9 @@
         <key>author</key>
         <string>Steve Lombardi</string>
         <key>name</key>
-        <string>Darcula Extended</string>
+        <string>Slime</string>
         <key>semanticClass</key>
-        <string>darcula.extended</string>
+        <string>slime</string>
         <key>colorSpaceName</key>
         <string>sRGB</string>
         <key>gutterSettings</key>
@@ -510,6 +510,19 @@
             <!-- css -->
             <dict>
                 <key>name</key>
+                <string>CSS</string>
+                <key>scope</key>
+                <string>
+                    source.css
+                </string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#efefef</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>name</key>
                 <string>CSS Class Selector</string>
                 <key>scope</key>
                 <string>
@@ -777,7 +790,7 @@
             </dict>            
             <dict>
                 <key>name</key>
-                <string>CSS @rule keyword control</string>
+                <string>CSS at-rule keyword control</string>
                 <key>scope</key>
                 <string>
                     meta.at-rule.return.scss, 
@@ -795,7 +808,7 @@
             </dict>
             <dict>
                 <key>name</key>
-                <string>CSS @media</string>
+                <string>CSS at-media</string>
                 <key>scope</key>
                 <string>
                   keyword.control.at-rule.media, 
@@ -809,7 +822,7 @@
             </dict>
             <dict>
                 <key>name</key>
-                <string>CSS @media attribute</string>
+                <string>CSS at-media attribute</string>
                 <key>scope</key>
                 <string>
                   support.type.property-name.media,
@@ -825,7 +838,7 @@
             </dict>
             <dict>
                 <key>name</key>
-                <string>CSS @import string</string>
+                <string>CSS at-import string</string>
                 <key>scope</key>
                 <string>
                   scss.meta.at-rule.import.string.quoted.single
@@ -838,7 +851,7 @@
             </dict>
             <dict>
                 <key>name</key>
-                <string>SCSS @Rule Mixin</string>
+                <string>SCSS at-Rule Mixin</string>
                 <key>scope</key>
                 <string>
                   keyword.control.at-rule.mixin.scss, 
@@ -852,7 +865,7 @@
             </dict>
             <dict>
                 <key>name</key>
-                <string>SCSS @Rule Include</string>
+                <string>SCSS at-Rule Include</string>
                 <key>scope</key>
                 <string>
                   keyword.control.at-rule.include, 
@@ -866,7 +879,7 @@
             </dict>
             <dict>
                 <key>name</key>
-                <string>SCSS @Rule FontFace</string>
+                <string>SCSS at-Rule FontFace</string>
                 <key>scope</key>
                 <string>
                   keyword.control.at-rule.font-face, 
@@ -880,11 +893,11 @@
             </dict>            
             <dict>
                 <key>name</key>
-                <string>SCSS @Rule Keyframe</string>
+                <string>SCSS at-Rule Keyframe</string>
                 <key>scope</key>
                 <string>
-                  keyword.control.at-rule.keyframes.scss, 
-                  keyword.control.at-rule.keyframes.scss punctuation.definition
+                  keyword.control.at-rule.keyframes, 
+                  keyword.control.at-rule.keyframes punctuation.definition
                 </string>
                 <key>settings</key>
                 <dict>
@@ -897,7 +910,8 @@
                 <string>SCSS Keyframes</string>
                 <key>scope</key>
                 <string>
-                  meta.at-rule.keyframes.scss entity.other.attribute-name.scss
+                  meta.at-rule.keyframes.scss entity.other.attribute-name.scss,
+                  meta.at-rule.keyframes.body entity.other.keyframe-offset.percentage
                 </string>
                 <key>settings</key>
                 <dict>
@@ -907,7 +921,7 @@
             </dict>
             <dict>
                 <key>name</key>
-                <string>SCSS @Rule Content</string>
+                <string>SCSS at-Rule Content</string>
                 <key>scope</key>
                 <string>
                   keyword.control.content.scss, 
@@ -1458,6 +1472,6 @@
             </dict>
         </array>
         <key>uuid</key>
-        <string>339949c2-4e2a-11e4-9e35-164230d1df67</string>
+        <string>5f440b6c-8879-4fda-8af6-b389ad79158b</string>
     </dict>
 </plist>
