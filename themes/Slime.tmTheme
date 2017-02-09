@@ -45,7 +45,7 @@
                 <key>name</key>
                 <string>Text</string>
                 <key>scope</key>
-                <string>variable.parameter.function, text.html.basic</string>
+                <string>variable.parameter.function, text.html.basic, text</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
@@ -1377,11 +1377,11 @@
                 <string>Tags</string>
                 <key>scope</key>
                 <string>
-                  text.html.basic meta.tag.inline.any.html,
-                  text.html.basic meta.tag.block.any.html,
-                  text.html.basic source.js.embedded.html,
-                  text.html.basic meta.tag.any.html,
-                  text.html.basic meta.tag.structure.any.html
+                  text.html meta.tag.inline.any.html,
+                  text.html meta.tag.block.any.html,
+                  text.html source.js.embedded.html,
+                  text.html meta.tag.any.html,
+                  text.html meta.tag.structure.any.html
                 </string>
                 <key>settings</key>
                 <dict>
