@@ -45,7 +45,7 @@
                 <key>name</key>
                 <string>Text</string>
                 <key>scope</key>
-                <string>variable.parameter.function, text.html.basic, text</string>
+                <string>variable.parameter.function, text.html.basic, text, source</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
