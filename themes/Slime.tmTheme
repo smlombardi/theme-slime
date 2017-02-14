@@ -1381,7 +1381,8 @@
                   text.html meta.tag.block.any.html,
                   text.html source.js.embedded.html,
                   text.html meta.tag.any.html,
-                  text.html meta.tag.structure.any.html
+                  text.html meta.tag.structure.any.html,
+                  text.html meta.tag.other.html
                 </string>
                 <key>settings</key>
                 <dict>
