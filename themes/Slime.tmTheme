@@ -145,7 +145,8 @@
                   entity.name.function, 
                   meta.require, 
                   support.function.any-method, 
-                  support.function
+                  support.function,
+                  meta.object-literal.key.js entity.name.function.js
                 </string>
                 <key>settings</key>
                 <dict>
@@ -370,9 +371,8 @@
                 <string>Literal Key</string>
                 <key>scope</key>
                 <string>
-                    meta.object-literal.key, 
-                    meta.object.member.object-literal.key, 
-                    meta.object-literal.key.js entity.name.function.js
+                    meta.object-literal.key,
+                    meta.object.member.object-literal.key
                 </string>
                 <key>settings</key>
                 <dict>
@@ -1304,7 +1304,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#DF9857</string>
+                    <string>#E0DB56</string>
                 </dict>
             </dict>
 
