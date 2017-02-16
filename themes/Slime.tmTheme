@@ -401,6 +401,17 @@
                     <key>foreground</key>
                     <string>#C7AF3F</string>
                 </dict>
+            </dict>            
+            <dict>
+                <key>name</key>
+                <string>Support Property DOM</string>
+                <key>scope</key>
+                <string>support.variable.property.dom.js</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#BDB66F</string>
+                </dict>
             </dict>
 
 
