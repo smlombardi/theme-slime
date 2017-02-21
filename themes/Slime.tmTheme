@@ -173,7 +173,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#A5B3C9</string>
+                    <string>#967E9A</string>
                 </dict>
             </dict>
             <dict>
@@ -544,7 +544,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#9CAE8A</string>
+                    <string>#9FB283</string>
                 </dict>
             </dict>
             <dict>
@@ -555,7 +555,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#9CAE8A</string>
+                    <string>#9FB283</string>
                 </dict>
             </dict>
             <dict>
@@ -586,7 +586,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#C2A279</string>
+                    <string>#81A7A3</string>
                 </dict>
             </dict>
             <dict>
@@ -709,7 +709,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#A5B3C9</string>
+                    <string>#967E9A</string>
                 </dict>
             </dict>
             <dict>
@@ -1264,6 +1264,7 @@
                 <string>Punctuation</string>
                 <key>scope</key>
                 <string>
+                    punctuation,
                     punctuation.definition, 
                     punctuation.section.function, 
                     punctuation.separator,
@@ -1287,7 +1288,9 @@
                     punctuation.terminator,
                     text.html.php meta.tag.block.any.html,
                     text.html.php meta.embedded.block.php source.php,
-                    text.html.php meta.embedded.line.php source.php
+                    text.html.php meta.embedded.line.php source.php,
+                    punctuation.support.type.property-name.begin.json,
+                    punctuation.support.type.property-name.end.json
                 </string>
                 <key>settings</key>
                 <dict>
@@ -1323,7 +1326,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#98AA87</string>
+                    <string>#9FB283</string>
                 </dict>
             </dict>
 
@@ -1341,7 +1344,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#C2A279</string>
+                    <string>#81A7A3</string>
                 </dict>
             </dict>
             <dict>
@@ -1357,31 +1360,21 @@
             </dict>
             <dict>
                 <key>name</key>
-                <string>Property Numbers</string>
-                <key>scope</key>
-                <string>constant.numeric.json</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#6897BB</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>JSON Quotes</string>
+                <string>JSON quotes</string>
                 <key>scope</key>
                 <string>
-                  punctuation.support.type.property-name.begin.json,
-                  punctuation.support.type.property-name.end.json,
-                  punctuation.definition.string.begin.json,
-                  punctuation.definition.string.end.json
+                    meta.structure.dictionary.json support.type.property-name.json punctuation.support.type.property-name.begin.json,
+                    meta.structure.dictionary.json support.type.property-name.json punctuation.support.type.property-name.end.json,
+                    meta.structure.dictionary.value.json string.quoted.double.json punctuation.definition.string.begin.json,
+                    meta.structure.dictionary.value.json string.quoted.double.json punctuation.definition.string.end.json
                 </string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#7692A2</string>
+                    <string>#c0c0c0</string>
                 </dict>
             </dict>
+   
             <!-- html -->
             <dict>
                 <key>name</key>
