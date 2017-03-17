@@ -145,8 +145,7 @@
                   entity.name.function, 
                   meta.require, 
                   support.function.any-method, 
-                  support.function,
-                  meta.object-literal.key.js entity.name.function.js
+                  support.function
                 </string>
                 <key>settings</key>
                 <dict>
@@ -341,7 +340,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#A6B090</string>
+                    <string>#AEC199</string>
                 </dict>
             </dict>
             <dict>
@@ -372,12 +371,13 @@
                 <key>scope</key>
                 <string>
                     meta.object-literal.key,
-                    meta.object.member.object-literal.key
+                    meta.object.member.object-literal.key,
+                    meta.object-literal.key.js entity.name.function.js
                 </string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#c0c0c0</string>
+                    <string>#B0BEC5</string>
                 </dict>
             </dict>
             <dict>
@@ -406,13 +406,14 @@
                 <key>name</key>
                 <string>Support Property DOM</string>
                 <key>scope</key>
-                <string>support.variable.property.dom.js</string>
+                <string>support.variable.property</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
                     <string>#BDB66F</string>
                 </dict>
-            </dict>
+            </dict>          
+
 
 
             <!-- typescript -->
@@ -1417,7 +1418,8 @@
                     meta.tag.inline.any.html entity.other.attribute-name.html, 
                     meta.tag.structure.any.html entity.other.attribute-name.html,
                     meta.tag.other.html entity.other.attribute-name.html,
-                    source.js.embedded.html entity.other.attribute-name.html
+                    source.js.embedded.html entity.other.attribute-name.html,
+                    entity.other.attribute-name.html
                 </string>
                 <key>settings</key>
                 <dict>
