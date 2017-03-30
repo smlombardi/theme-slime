@@ -902,6 +902,20 @@
                     <key>foreground</key>
                     <string>#8390A1</string>
                 </dict>
+            </dict> 
+            <dict>
+                <key>name</key>
+                <string>SCSS at-Rule Supports</string>
+                <key>scope</key>
+                <string>
+                  keyword.control.at-rule.supports, 
+                  keyword.control.at-rule.supports.scss punctuation.definition.keyword
+                </string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#e78484</string>
+                </dict>
             </dict>            
             <dict>
                 <key>name</key>
