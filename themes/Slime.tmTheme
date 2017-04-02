@@ -805,17 +805,18 @@
                 <string>CSS at-rule keyword control</string>
                 <key>scope</key>
                 <string>
-                    meta.at-rule.return.scss, 
-                    meta.at-rule.return.scss punctuation.definition,                    
-                    meta.at-rule.else.scss, 
-                    meta.at-rule.else.scss punctuation.definition,
-                    meta.at-rule.if.scss, 
-                    meta.at-rule.if.scss punctuation.definition
+                    keyword.control.else.scss, 
+                    keyword.control.else.scss punctuation.definition,                    
+                    keyword.control.if.scss, 
+                    keyword.control.if.scss punctuation.definition,
+                    meta.at-rule.each.scss keyword.control.each.scss,
+                    meta.at-rule.each.scss keyword.control.each.scss punctuation.definition,
+                    meta.at-rule.each.scss keyword.control.operator
                 </string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#CC7832</string>
+                    <string>#D9712C</string>
                 </dict>
             </dict>
             <dict>
@@ -975,13 +976,14 @@
                 <string>Sass Interpolation</string>
                 <key>scope</key>
                 <string>
-                  punctuation.definition.interpolation.begin.bracket.curly.scss, 
+                  variable.interpolation.scss,
+                  punctuation.definition.interpolation.begin.bracket.curly.scss,
                   punctuation.definition.interpolation.end.bracket.curly.scss
                 </string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#C7AF3F</string>
+                    <string>#739f9e</string>
                 </dict>
             </dict>
             <dict>
