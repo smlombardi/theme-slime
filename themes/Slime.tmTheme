@@ -421,7 +421,7 @@
                 <key>name</key>
                 <string>ts keyword control</string>
                 <key>scope</key>
-                <string>keyword.control.export.ts, keyword.control.flow.ts</string>
+                <string>keyword.control.export.ts, keyword.control.flow.ts, keyword.control.import.ts</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
@@ -437,6 +437,17 @@
                 <dict>
                     <key>foreground</key>
                     <string>#a9b7c7</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>ts entity name type param</string>
+                <key>scope</key>
+                <string>meta.type.parameters.ts entity.name.type.ts</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#ddb78a</string>
                 </dict>
             </dict>
             <dict>
