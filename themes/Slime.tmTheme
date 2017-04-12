@@ -421,7 +421,12 @@
                 <key>name</key>
                 <string>ts keyword control</string>
                 <key>scope</key>
-                <string>keyword.control.export.ts, keyword.control.flow.ts, keyword.control.import.ts</string>
+                <string>
+                    keyword.control.export.ts, 
+                    keyword.control.flow.ts, 
+                    keyword.control.import.ts, 
+                    keyword.control.from.ts
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
