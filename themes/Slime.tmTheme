@@ -45,7 +45,12 @@
                 <key>name</key>
                 <string>Text</string>
                 <key>scope</key>
-                <string>variable.parameter.function, text.html.basic, text, source</string>
+                <string>
+                    variable.parameter.function, 
+                    text.html.basic, 
+                    text, 
+                    source
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
@@ -356,7 +361,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#b57b91</string>
+                    <string>#B5919F</string>
                 </dict>
             </dict>
             <dict>
@@ -596,18 +601,21 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#9FB283</string>
+                    <string>#BBD19A</string>
                 </dict>
             </dict>
             <dict>
                 <key>name</key>
                 <string>CSS Class Selector Punctuation</string>
                 <key>scope</key>
-                <string>entity.scss.meta.property-list.punctuation.other.attribute-name.class.css.definition, entity.punctuation.other.attribute-name.class.css.definition, punctuation.definition.entity.css, meta.selector.css</string>
+                <string>
+                    entity.scss.meta.property-list.punctuation.other.attribute-name.class.css.definition, entity.punctuation.other.attribute-name.class.css.definition, 
+                    punctuation.definition.entity.css, meta.selector.css
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#9FB283</string>
+                    <string>#BBD19A</string>
                 </dict>
             </dict>
             <dict>
@@ -618,7 +626,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#BDB66F</string>
+                    <string>#DCD267</string>
                 </dict>
             </dict>
             <dict>
@@ -638,7 +646,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#81A7A3</string>
+                    <string>#83A5A1</string>
                 </dict>
             </dict>
             <dict>
@@ -661,7 +669,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#C0C0C0</string>
+                    <string>#C0C0C3</string>
                 </dict>
             </dict>
             <dict>
@@ -761,7 +769,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#967E9A</string>
+                    <string>#A087A5</string>
                 </dict>
             </dict>
             <dict>
@@ -803,7 +811,9 @@
                 <key>name</key>
                 <string>SCSS Attribute selector</string>
                 <key>scope</key>
-                <string>entity.other.attribute-name.attribute.scss</string>
+                <string>
+                  entity.other.attribute-name.attribute.scss
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
@@ -892,7 +902,6 @@
                   support.type.property-name.media,
                   meta.at-rule.include.scss,
                   meta.at-rule.include.scss support.constant.mathematical-symbols.scss
-
                 </string>
                 <key>settings</key>
                 <dict>
@@ -1011,17 +1020,7 @@
                     <string>#b3c770</string>
                 </dict>
             </dict>
-            <dict>
-                <key>name</key>
-                <string>Sass Variable</string>
-                <key>scope</key>
-                <string>variable.scss</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#B07A8E</string>
-                </dict>
-            </dict>
+
             <dict>
                 <key>name</key>
                 <string>Sass Interpolation</string>
@@ -1363,7 +1362,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#C2C2C2</string>
+                    <string>#e0e0e0</string>
                 </dict>
             </dict>
    
