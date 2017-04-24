@@ -59,7 +59,11 @@
                 <string>
                   constant.language.boolean.true.js, 
                   constant.language.boolean.false.js, 
-                  constant.language.null.js
+                  constant.language.null.js,
+                  constant.language.boolean.true.ts, 
+                  constant.language.boolean.false.ts, 
+                  constant.language.null.ts
+
                 </string>
                 <key>settings</key>
                 <dict>
@@ -227,7 +231,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#A0627A</string>
+                    <string>#fdbc3e</string>
                 </dict>
             </dict>
             <dict>
@@ -318,14 +322,15 @@
                 <key>name</key>
                 <string>Variables</string>
                 <key>scope</key>
-                <string>variable, 
-                  punctuation.definition.variable.php, 
-                  variable.other.php
+                <string>
+                    variable, 
+                    punctuation.definition.variable.php, 
+                    variable.other.php
                 </string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#b57b91</string>
+                    <string>#B5919F</string>
                 </dict>
             </dict>
             <!-- JS -->
@@ -377,7 +382,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#BFA98E</string>
+                    <string>#AC9E8C</string>
                 </dict>
             </dict>
             <dict>
@@ -419,7 +424,7 @@
             <!-- typescript -->
             <dict>
                 <key>name</key>
-                <string>ts keyword control</string>
+                <string>ts keyword control import export</string>
                 <key>scope</key>
                 <string>
                     keyword.control.export.ts, 
@@ -430,7 +435,21 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#ce7827</string>
+                    <string>#CE853F</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>ts keyword control loops</string>
+                <key>scope</key>
+                <string>
+                    keyword.control.loop.ts,
+                    keyword.control.conditional.ts
+                </string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#D9AC60</string>
                 </dict>
             </dict>
             <dict>
@@ -504,13 +523,28 @@
             </dict>
             <dict>
                 <key>name</key>
+                <string>Array literal variable</string>
+                <key>scope</key>
+                <string>
+                    meta.array.literal.ts variable.other.readwrite.ts,
+                    meta.parameters.ts variable.parameter.ts
+                </string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#BEC7A9</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>name</key>
                 <string>class</string>
                 <key>scope</key>
                 <string>
                     block.variable.other.object.class.declaration.property.method.ts, 
                     block.variable.other.object.class.declaration.method.ts, 
                     block.variable.other.object.array.literal.class.declaration.method.var.expr.ts, 
-                    block.variable.class.declaration.method.parameter.arrow, ts.block.variable.other.class.declaration.property.method.ts
+                    block.variable.class.declaration.method.parameter.arrow,
+                    variable.other.object.ts
                 </string>
                 <key>settings</key>
                 <dict>
@@ -518,6 +552,7 @@
                     <string>#a9b7c7</string>
                 </dict>
             </dict>
+
             <dict>
                 <key>name</key>
                 <string>class</string>
@@ -818,7 +853,7 @@
             </dict>            
             <dict>
                 <key>name</key>
-                <string>CSS at-rule keyword control</string>
+                <string>SCSS keyword control</string>
                 <key>scope</key>
                 <string>
                     keyword.control.else.scss, 
@@ -832,7 +867,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#D9712C</string>
+                    <string>#D98146</string>
                 </dict>
             </dict>
             <dict>
@@ -1336,11 +1371,15 @@
                 <key>name</key>
                 <string>Logical Operator</string>
                 <key>scope</key>
-                <string>keyword.operator.comparison, keyword.operator.logical</string>
+                <string>
+                    keyword.operator.comparison, 
+                    keyword.operator.logical,
+                    keyword.operator.ternary
+                </string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#E0DB56</string>
+                    <string>#C2C2C2</string>
                 </dict>
             </dict>
 
