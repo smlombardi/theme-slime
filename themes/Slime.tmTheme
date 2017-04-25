@@ -67,13 +67,14 @@
                   constant.language.null.js,
                   constant.language.boolean.true.ts, 
                   constant.language.boolean.false.ts, 
-                  constant.language.null.ts
-
+                  constant.language.null.ts,
+                  constant.language.undefined.ts,
+                  constant.language.undefined.js
                 </string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#C7AF3F</string>
+                    <string>#B7C787</string>
                 </dict>
             </dict>
             <dict>
@@ -298,7 +299,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#C7AF3F</string>
+                    <string>#E6CE64</string>
                 </dict>
             </dict>
             <dict>
@@ -513,6 +514,17 @@
                 <dict>
                     <key>foreground</key>
                     <string>#abdee8</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>Support</string>
+                <key>scope</key>
+                <string>support.type.primitive.ts</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#C8BA7C</string>
                 </dict>
             </dict>
             <dict>
