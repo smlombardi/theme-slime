@@ -105,7 +105,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#676767dd</string>
+                    <string>#5E5E5E</string>
                     <key>fontStyle</key>
                     <string></string>
                 </dict>
@@ -1522,6 +1522,20 @@
                 <dict>
                     <key>foreground</key>
                     <string>#7692A2</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>Attribute Value Quotes</string>
+                <key>scope</key>
+                <string>
+                  string.quoted.double.html punctuation.definition.string.begin.html,
+                  string.quoted.double.html punctuation.definition.string.end.html
+                </string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#c0c0c0</string>
                 </dict>
             </dict>
             <dict>
