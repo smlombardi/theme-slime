@@ -74,7 +74,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#B7C787</string>
+                    <string>#AB6767</string>
                 </dict>
             </dict>
             <dict>
@@ -105,7 +105,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#5E5E5E</string>
+                    <string>#676769</string>
                     <key>fontStyle</key>
                     <string></string>
                 </dict>
@@ -330,6 +330,7 @@
                 <key>scope</key>
                 <string>
                     variable, 
+                    variable.other.readwrite.js, 
                     punctuation.definition.variable.php, 
                     variable.other.php
                 </string>
@@ -339,13 +340,13 @@
                     <string>#B69094</string>
                 </dict>
             </dict>
+
             <!-- JS -->
             <dict>
                 <key>name</key>
                 <string>_this</string>
                 <key>scope</key>
                 <string>
-                  variable.other.readwrite.js, 
                   variable.other.object.js
                 </string>
                 <key>settings</key>
@@ -1106,6 +1107,32 @@
             </dict>
             <dict>
                 <key>name</key>
+                <string>Regular Expression Quantifier</string>
+                <key>scope</key>
+                <string>
+                    keyword.operator.quantifier.regexp
+                </string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#D4C162</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>Regular Expression Brackets</string>
+                <key>scope</key>
+                <string>
+                    punctuation.definition.character-class.regexp
+                </string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#CD9081</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>name</key>
                 <string>PHPdoc Comments</string>
                 <key>scope</key>
                 <string>meta.block.embedded.php.source.comment.documentation.phpdoc</string>
@@ -1369,7 +1396,9 @@
                     text.html.php meta.embedded.block.php source.php,
                     text.html.php meta.embedded.line.php source.php,
                     punctuation.support.type.property-name.begin.json,
-                    punctuation.support.type.property-name.end.json
+                    punctuation.support.type.property-name.end.json,
+                    punctuation.definition.string.begin.js,
+                    punctuation.definition.string.end.js
                 </string>
                 <key>settings</key>
                 <dict>
