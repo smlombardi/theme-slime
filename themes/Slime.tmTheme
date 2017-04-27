@@ -806,18 +806,30 @@
                 <key>scope</key>
                 <string>
                   entity.other.attribute-name.pseudo-class.css, 
-                  entity.other.attribute-name.pseudo-class.css punctuation.definition.entity.css,
                   entity.other.attribute-name.pseudo-element.css,
-                  entity.other.attribute-name.pseudo-element.css punctuation.definition.entity.css,
                   entity.property-list.other.attribute-name.pseudo-class.css, 
-                  entity.property-list.other.attribute-name.pseudo-class.css punctuation.definition.entity.css, 
-                  entity.property-list.other.attribute-name.pseudo-element.css,
-                  entity.property-list.other.attribute-name.pseudo-element.css punctuation.definition.entity.css
+                  entity.property-list.other.attribute-name.pseudo-element.css
                 </string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
                     <string>#AB6767</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>CSS Pseudo colons</string>
+                <key>scope</key>
+                <string>
+                  entity.other.attribute-name.pseudo-class.css punctuation.definition.entity.css,
+                  entity.other.attribute-name.pseudo-element.css punctuation.definition.entity.css,
+                  entity.property-list.other.attribute-name.pseudo-class.css punctuation.definition.entity.css, 
+                  entity.property-list.other.attribute-name.pseudo-element.css punctuation.definition.entity.css
+                </string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#c0c0c0</string>
                 </dict>
             </dict>
             <dict>
@@ -865,13 +877,25 @@
                 <string>CSS @import</string>
                 <key>scope</key>
                 <string>
-                  keyword.control.at-rule.import, 
-                  keyword.control.at-rule.import punctuation.definition
+                  keyword.control.at-rule.import
                 </string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
                     <string>#BDB66F</string>
+                </dict>
+            </dict>            
+            <dict>
+                <key>name</key>
+                <string>CSS @import at-sign</string>
+                <key>scope</key>
+                <string>
+                  keyword.control.at-rule.import punctuation.definition
+                </string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#9F995D</string>
                 </dict>
             </dict>            
             <dict>
@@ -898,13 +922,25 @@
                 <string>CSS at-media</string>
                 <key>scope</key>
                 <string>
-                  keyword.control.at-rule.media, 
-                  keyword.control.at-rule.media punctuation.definition
+                  keyword.control.at-rule.media
                 </string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
                     <string>#A48BBD</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>CSS at-media at-sign</string>
+                <key>scope</key>
+                <string>
+                  keyword.control.at-rule.media punctuation.definition
+                </string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#89749F</string>
                 </dict>
             </dict>
             <dict>
@@ -940,13 +976,25 @@
                 <string>SCSS at-Rule Mixin</string>
                 <key>scope</key>
                 <string>
-                  keyword.control.at-rule.mixin.scss, 
-                  keyword.control.at-rule.mixin.scss punctuation.definition
+                  keyword.control.at-rule.mixin.scss
                 </string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
                     <string>#e78484</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>SCSS at-Rule Mixin at-sign</string>
+                <key>scope</key>
+                <string>
+                  keyword.control.at-rule.mixin.scss punctuation.definition
+                </string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#AA6161</string>
                 </dict>
             </dict>
             <dict>
@@ -954,8 +1002,7 @@
                 <string>SCSS at-Rule Include</string>
                 <key>scope</key>
                 <string>
-                  keyword.control.at-rule.include, 
-                  keyword.control.at-rule.include punctuation.definition
+                  keyword.control.at-rule.include
                 </string>
                 <key>settings</key>
                 <dict>
@@ -965,11 +1012,23 @@
             </dict>
             <dict>
                 <key>name</key>
+                <string>SCSS at-Rule Include at-sign</string>
+                <key>scope</key>
+                <string>
+                  keyword.control.at-rule.include punctuation.definition
+                </string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#AA6161</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>name</key>
                 <string>SCSS at-Rule FontFace</string>
                 <key>scope</key>
                 <string>
-                  keyword.control.at-rule.font-face, 
-                  keyword.control.at-rule.font-face punctuation.definition
+                  keyword.control.at-rule.font-face
                 </string>
                 <key>settings</key>
                 <dict>
@@ -979,11 +1038,23 @@
             </dict> 
             <dict>
                 <key>name</key>
+                <string>SCSS at-Rule FontFace at-sign</string>
+                <key>scope</key>
+                <string>
+                  keyword.control.at-rule.font-face punctuation.definition
+                </string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#AA6161</string>
+                </dict>
+            </dict> 
+            <dict>
+                <key>name</key>
                 <string>SCSS at-Rule Supports</string>
                 <key>scope</key>
                 <string>
-                  keyword.control.at-rule.supports, 
-                  keyword.control.at-rule.supports.scss punctuation.definition.keyword
+                  keyword.control.at-rule.supports
                 </string>
                 <key>settings</key>
                 <dict>
@@ -993,16 +1064,41 @@
             </dict>            
             <dict>
                 <key>name</key>
+                <string>SCSS at-Rule Supports at-sign</string>
+                <key>scope</key>
+                <string>
+                  keyword.control.at-rule.supports.scss punctuation.definition.keyword
+                </string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#AA6161</string>
+                </dict>
+            </dict>            
+            <dict>
+                <key>name</key>
                 <string>SCSS at-Rule Keyframe</string>
                 <key>scope</key>
                 <string>
-                  keyword.control.at-rule.keyframes, 
-                  keyword.control.at-rule.keyframes punctuation.definition
+                  keyword.control.at-rule.keyframes
                 </string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
                     <string>#e78484</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>SCSS at-Rule Keyframe at-sign</string>
+                <key>scope</key>
+                <string>
+                  keyword.control.at-rule.keyframes punctuation.definition
+                </string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#AA6161</string>
                 </dict>
             </dict>
             <dict>
@@ -1024,13 +1120,25 @@
                 <string>SCSS at-Rule Content</string>
                 <key>scope</key>
                 <string>
-                  keyword.control.content.scss, 
-                  keyword.control.content.scss punctuation.definition
+                  keyword.control.content.scss
                 </string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
                     <string>#b3c770</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>SCSS at-Rule Content at-sign</string>
+                <key>scope</key>
+                <string>
+                  keyword.control.content.scss punctuation.definition
+                </string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#97A95F</string>
                 </dict>
             </dict>
 
@@ -1511,12 +1619,28 @@
                 <string>Tags</string>
                 <key>scope</key>
                 <string>
-                  entity.name.tag, punctuation.definition.tag, keyword.control.html.elements, entity.name.tag.inline.any.html, entity.name.tag.block.any.html
+                  entity.name.tag, 
+                  keyword.control.html.elements, 
+                  entity.name.tag.inline.any.html, 
+                  entity.name.tag.block.any.html
                 </string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
                     <string>#C4B268</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>Tags</string>
+                <key>scope</key>
+                <string>
+                  punctuation.definition.tag
+                </string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#A69658</string>
                 </dict>
             </dict>
             <dict>
