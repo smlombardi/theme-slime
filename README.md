@@ -3,6 +3,12 @@ A syntax theme for [Visual Studio Code](https://code.visualstudio.com) based on 
 
 Optimized for SCSS, HTML, and JS files.
 
+2.0: Now includes Workbench Colors to match:
+
+### Workbench
+![Screenshot](https://github.com/smlombardi/theme-slime/raw/master/screenshots/screenshot.png)
+
+
 
 ### HTML
 ![Screenshot](https://github.com/smlombardi/theme-slime/raw/master/screenshots/html.png)
