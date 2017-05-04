@@ -5,6 +5,8 @@ Optimized for SCSS, HTML, and JS files.
 
 2.0: Now includes Workbench Colors to match:
 
+**NOW REQUIRES VSCODE  1.12 INSIDER OR HIGHER**
+
 ### Workbench
 ![Screenshot](https://github.com/smlombardi/theme-slime/raw/master/screenshots/screenshot.png)
 

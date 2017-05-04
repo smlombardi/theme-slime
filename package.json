@@ -1,32 +1,32 @@
 {
-	"name": "slime",
-	"displayName": "Slime Theme",
-	"description": "A port of my Atom theme",
-	"version": "1.15.0",
-	"publisher": "smlombardi",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/smlombardi/theme-slime.git"
-	},
-	"engines": {
-		"vscode": "*"
-	},
-	"categories": [
-		"Themes"
-	],
-	"icon": "icon.svg",
-	"contributes": {
-		"themes": [
-			{
-				"label": "Slime",
-				"uiTheme": "vs-dark",
-				"path": "./themes/slime-theme.json"
-			}
-		]
-	},
-	"__metadata": {
-		"id": "735af542-944f-4b07-b336-9df27d7b8d84",
-		"publisherId": "9da64a38-f7e7-4220-b7b7-ea8baa506bf6",
-		"publisherDisplayName": "smlombardi"
-	}
+    "name": "slime",
+    "displayName": "Slime Theme",
+    "description": "A port of my Atom theme",
+    "version": "2.0.0",
+    "publisher": "smlombardi",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/smlombardi/theme-slime.git"
+    },
+    "engines": {
+        "vscode": "*"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "icon": "icon.svg",
+    "contributes": {
+        "themes": [
+            {
+                "label": "Slime",
+                "uiTheme": "vs-dark",
+                "path": "./themes/slime-theme.json"
+            }
+        ]
+    },
+    "__metadata": {
+        "id": "735af542-944f-4b07-b336-9df27d7b8d84",
+        "publisherId": "9da64a38-f7e7-4220-b7b7-ea8baa506bf6",
+        "publisherDisplayName": "smlombardi"
+    }
 }
