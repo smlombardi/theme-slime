@@ -1,7 +1,7 @@
 {
 	"type": "dark",
 	"colors": {
-		"activityBar.background": "#3c4140",
+		"activityBar.background": "#37413F",
 		"activityBarBadge.background": "#a03f9b",
 		"activityBarBadge.foreground": "#ffffff",
 		"button.background": "#2F6260",
@@ -29,6 +29,9 @@
 		"inputOption.activeBorder": "#a03f9b",
 		"list.activeSelectionBackground": "#405c50",
 		"list.inactiveSelectionBackground": "#405c5080",
+    "list.focusBackground": "#405c50",
+    "input.background": "#24292a",
+    "input.border": "#37413F",
 		"list.hoverBackground": "#405c5033",
 		"sideBar.background": "#282e2f",
 		"sideBarTitle.foreground": "#ffffff",
