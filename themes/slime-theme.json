@@ -1,7 +1,7 @@
 {
 	"type": "dark",
 	"colors": {
-		"activityBar.background": "#37413F",
+		"activityBar.background": "#3B413F",
 		"activityBarBadge.background": "#a03f9b",
 		"activityBarBadge.foreground": "#ffffff",
 		"button.background": "#2F6260",
