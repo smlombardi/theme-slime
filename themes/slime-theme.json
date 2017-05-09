@@ -92,7 +92,15 @@
 		},
 		{
 			"name": "Comments",
-			"scope": "comment, punctuation.definition.comment, comment.block.html",
+			"scope": "comment, comment.block.html",
+			"settings": {
+				"foreground": "#616b69",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Comments",
+			"scope": "punctuation.definition.comment",
 			"settings": {
 				"foreground": "#616b69",
 				"fontStyle": ""
@@ -432,7 +440,14 @@
 			"name": "Preprocessor At Rule",
 			"scope": "meta.preprocessor.at-rule keyword.control.at-rule, keyword.control.at-rule",
 			"settings": {
-				"foreground": "#8693A5"
+				"foreground": "#e78484"
+			}
+		},
+		{
+			"name": "Preprocessor At Rule at-sign",
+			"scope": "meta.preprocessor.at-rule keyword.control.at-rule punctuation.definition, keyword.control.at-rule punctuation.definition",
+			"settings": {
+				"foreground": "#AA6161"
 			}
 		},
 		{
@@ -508,7 +523,7 @@
 		},
 		{
 			"name": "SCSS keyword control",
-			"scope": "  keyword.control.else.scss,   keyword.control.else.scss punctuation.definition,                      keyword.control.if.scss,   keyword.control.if.scss punctuation.definition,  meta.at-rule.each.scss keyword.control.each.scss,  meta.at-rule.each.scss keyword.control.each.scss punctuation.definition,  meta.at-rule.each.scss keyword.control.operator",
+			"scope": "keyword.control.else.scss, keyword.control.else.scss punctuation.definition, keyword.control.return.scss, keyword.control.return.scss punctuation.definition, keyword.control.if.scss, keyword.control.if.scss punctuation.definition,  meta.at-rule.each.scss keyword.control.each.scss,  meta.at-rule.each.scss keyword.control.each.scss punctuation.definition,  meta.at-rule.each.scss keyword.control.operator",
 			"settings": {
 				"foreground": "#D98146"
 			}
@@ -517,14 +532,14 @@
 			"name": "CSS at-media",
 			"scope": "keyword.control.at-rule.media",
 			"settings": {
-				"foreground": "#A48BBD"
+				"foreground": "#91AAC7"
 			}
 		},
 		{
 			"name": "CSS at-media at-sign",
 			"scope": "keyword.control.at-rule.media punctuation.definition",
 			"settings": {
-				"foreground": "#89749F"
+				"foreground": "#7B90A9"
 			}
 		},
 		{
@@ -571,14 +586,14 @@
 		},
 		{
 			"name": "SCSS at-Rule FontFace",
-			"scope": "keyword.control.at-rule.font-face",
+			"scope": "meta.at-rule.fontface.scss keyword.control.at-rule.font-face.scss",
 			"settings": {
 				"foreground": "#e78484"
 			}
 		},
 		{
 			"name": "SCSS at-Rule FontFace at-sign",
-			"scope": "keyword.control.at-rule.font-face punctuation.definition",
+			"scope": "keyword.control.at-rule.font-face.scss punctuation.definition.keyword.scss",
 			"settings": {
 				"foreground": "#AA6161"
 			}
@@ -636,7 +651,7 @@
 			"name": "Sass Interpolation",
 			"scope": "variable.interpolation.scss,punctuation.definition.interpolation.begin.bracket.curly.scss,punctuation.definition.interpolation.end.bracket.curly.scss",
 			"settings": {
-				"foreground": "#739f9e"
+				"foreground": "#e1a170"
 			}
 		},
 		{
@@ -880,7 +895,14 @@
 		},
 		{
 			"name": "Tags",
-			"scope": "punctuation.definition.tag",
+			"scope": "punctuation.definition.tag", 
+			"settings": {
+				"foreground": "#A69658"
+			}
+		},		
+		{
+			"name": "Tags",
+			"scope": "punctuation.definition.tag.begin.html source.js", 
 			"settings": {
 				"foreground": "#A69658"
 			}
