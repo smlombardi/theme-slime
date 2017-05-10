@@ -586,14 +586,14 @@
 		},
 		{
 			"name": "SCSS at-Rule FontFace",
-			"scope": "meta.at-rule.fontface.scss keyword.control.at-rule.font-face.scss",
+			"scope": "meta.at-rule.fontface.scss keyword.control.at-rule.fontface.scss",
 			"settings": {
 				"foreground": "#e78484"
 			}
 		},
 		{
 			"name": "SCSS at-Rule FontFace at-sign",
-			"scope": "keyword.control.at-rule.font-face.scss punctuation.definition.keyword.scss",
+			"scope": "keyword.control.at-rule.fontface.scss punctuation.definition.keyword.scss",
 			"settings": {
 				"foreground": "#AA6161"
 			}
