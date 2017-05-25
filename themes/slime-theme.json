@@ -431,11 +431,18 @@
 				"foreground": "#8F9D6A"
 			}
 		},
+        {
+            "name": "Sass Placeholder",
+            "scope": "entity.other.attribute-name.placeholder.scss, entity.other.attribute-name.placeholder.css",
+            "settings": {
+                "foreground": "#BBD19A"
+            }
+        },
 		{
-			"name": "Sass Placeholder",
-			"scope": "entity.other.attribute-name.placeholder.scss,entity.other.attribute-name.placeholder.scss punctuation.definition.entity.sass",
+			"name": "Sass Placeholder %",
+			"scope": "entity.other.attribute-name.placeholder.scss punctuation.definition.entity.sass, entity.other.attribute-name.placeholder.css punctuation.definition.entity.css ",
 			"settings": {
-				"foreground": "#95C1CA"
+				"foreground": "#7D945B"
 			}
 		},
 		{
@@ -911,7 +918,7 @@
 		},
 		{
 			"name": "Attributes",
-			"scope": "  meta.tag.any.html entity.other.attribute-name.html,   meta.tag.block.any.html entity.other.attribute-name.html,   meta.tag.inline.any.html entity.other.attribute-name.html,   meta.tag.structure.any.html entity.other.attribute-name.html,  meta.tag.other.html entity.other.attribute-name.html,  source.js.embedded.html entity.other.attribute-name.html,  entity.other.attribute-name.html",
+			"scope": "  meta.tag.any.html entity.other.attribute-name.html,   meta.tag.block.any.html entity.other.attribute-name.html,   meta.tag.inline.any.html entity.other.attribute-name.html,   meta.tag.structure.any.html entity.other.attribute-name.html,  meta.tag.other.html entity.other.attribute-name.html,  source.js.embedded.html entity.other.attribute-name.html,  entity.other.attribute-name.html, source.ts entity.other.attribute-name",
 			"settings": {
 				"foreground": "#98AA87"
 			}
