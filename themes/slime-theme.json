@@ -393,9 +393,23 @@
 			"name": "CSS Tag Selector",
 			"scope": "entity.name.tag.scss, entity.name.tag.css",
 			"settings": {
-				"foreground": "#DCD267"
+				"foreground": "#BEB558"
 			}
 		},
+        {
+            "name": "CSS ID Selector",
+            "scope": "entity.other.attribute-name.id.css",
+            "settings": {
+                "foreground": "#BE7C81"
+            }
+        },
+        {
+            "name": "CSS ID Selector Punctuation",
+            "scope": "entity.other.attribute-name.id.css punctuation.definition.entity.css",
+            "settings": {
+                "foreground": "#A0686D"
+            }
+        },
 		{
 			"name": "CSS property name",
 			"scope": "entity.name.tag.custom.sass,entity.name.tag.custom.scss, meta.property-list.css meta.property-name.css, meta.property-list.scss meta.property-name.sass, meta.property-list.scss meta.property-name.scss, support.type.property-name.css, support.type.property-name.sass, support.type.property-name.scss",
@@ -918,7 +932,7 @@
 		},
 		{
 			"name": "Attributes",
-			"scope": "  meta.tag.any.html entity.other.attribute-name.html,   meta.tag.block.any.html entity.other.attribute-name.html,   meta.tag.inline.any.html entity.other.attribute-name.html,   meta.tag.structure.any.html entity.other.attribute-name.html,  meta.tag.other.html entity.other.attribute-name.html,  source.js.embedded.html entity.other.attribute-name.html,  entity.other.attribute-name.html, source.ts entity.other.attribute-name",
+			"scope": "  meta.tag.any.html entity.other.attribute-name.html,   meta.tag.block.any.html entity.other.attribute-name.html,   meta.tag.inline.any.html entity.other.attribute-name.html,   meta.tag.structure.any.html entity.other.attribute-name.html,  meta.tag.other.html entity.other.attribute-name.html,  source.js.embedded.html entity.other.attribute-name.html,  entity.other.attribute-name.html, source.ts entity.other.attribute-name, entity.other.attribute-name.id.html",
 			"settings": {
 				"foreground": "#98AA87"
 			}
@@ -935,13 +949,6 @@
 			"scope": "string.quoted.double.html punctuation.definition.string.begin.html,string.quoted.double.html punctuation.definition.string.end.html",
 			"settings": {
 				"foreground": "#c0c0c0"
-			}
-		},
-		{
-			"name": "Attribute IDs",
-			"scope": "entity.other.attribute-name.id",
-			"settings": {
-				"foreground": "#98AA87"
 			}
 		},
 		{
