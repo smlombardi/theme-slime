@@ -819,7 +819,7 @@
 		},
 		{
 			"name": "Code",
-			"scope": "markup.raw.inline",
+			"scope": ["markup.inline.raw.markdown", "text.html.markdown markup.fenced_code.block.markdown"],
 			"settings": {
 				"foreground": "#a3be8c"
 			}
