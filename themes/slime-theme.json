@@ -258,7 +258,7 @@
 		},
 		{
 			"name": "Literal Key",
-			"scope": "  meta.object-literal.key,  meta.object.member.object-literal.key,  meta.object-literal.key.js entity.name.function.js",
+			"scope": ["meta.object-literal.key",  "meta.object.member.object-literal.key",  "meta.object-literal.key.js entity.name.function.js", "meta.object-literal.key.ts string.quoted.double.ts"],
 			"settings": {
 				"foreground": "#AC9E8C"
 			}
@@ -862,9 +862,9 @@
 		},
 		{
 			"name": "Punctuation",
-			"scope": "  punctuation,  punctuation.definition,   punctuation.section.function,   punctuation.separator,  punctuation.support.type.property-name,   punctuation.accessor.ts,  meta.brace.round,  meta.brace.square,  meta.type.annotation.ts,  support.constant.mathematical-symbols,   block.brace.array.literal.square,   block.brace.round,   block.punctuation,   brace.array.literal.square,   brace.type.square,   punctuation.decorator.objectliteral.object.member.accessor,  punctuation.section,  meta.at-rule.media.scss,  keyword.operator.css,  source.css.scss,  punctuation.accessor.js,  punctuation.terminator,  text.html.php meta.tag.block.any.html,  text.html.php meta.embedded.block.php source.php,  text.html.php meta.embedded.line.php source.php,  punctuation.support.type.property-name.begin.json,  punctuation.support.type.property-name.end.json,  punctuation.definition.string.begin.js,  punctuation.definition.string.end.js",
+			"scope": ["punctuation", "punctuation.definition", "punctuation.section.function", "punctuation.separator", "punctuation.support.type.property-name", "punctuation.accessor.ts", "meta.brace.round", "meta.brace.square", "meta.type.annotation.ts", "support.constant.mathematical-symbols", "block.brace.array.literal.square", "block.brace.round", "block.punctuation", "brace.array.literal.square", "brace.type.square", "punctuation.decorator.objectliteral.object.member.accessor", "punctuation.section", "meta.at-rule.media.scss", "keyword.operator.css", "source.css.scss", "punctuation.accessor.js", "punctuation.terminator", "text.html.php meta.tag.block.any.html", "text.html.php meta.embedded.block.php source.php", "text.html.php meta.embedded.line.php source.php", "punctuation.support.type.property-name.begin.json", "punctuation.support.type.property-name.end.json", "punctuation.definition.string.begin.js", "punctuation.definition.string.end.js","punctuation.definition.string.begin.ts", "punctuation.definition.string.end.ts"],
 			"settings": {
-				"foreground": "#e0e0e0"
+				"foreground": "#D2D2D2"
 			}
 		},
 		{
