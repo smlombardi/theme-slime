@@ -231,7 +231,7 @@
 		},
 		{
 			"name": "Variables",
-			"scope": "  variable,   variable.other.readwrite.js,   punctuation.definition.variable.php,   variable.other.php",
+			"scope": "variable,   variable.other.readwrite.js,   punctuation.definition.variable.php,   variable.other.php",
 			"settings": {
 				"foreground": "#B69094"
 			}
@@ -694,7 +694,7 @@
 		},
 		{
 			"name": "PHP delimiters",
-			"scope": "punctuation.section.embedded.begin.php, punctuation.section.embedded.end.php, punctuation.section.embedded.begin.metatag.php, punctuation.section.embedded.end.metatag.php,text.html.php meta.embedded.line.php punctuation.section.embedded.end.metatag.php source.php,text.html.php meta.embedded.block.php punctuation.section.embedded.end.metatag.php source.php",
+			"scope": ["punctuation.section.embedded.begin.php", "punctuation.section.embedded.end.php", "punctuation.section.embedded.begin.metatag.php", "punctuation.section.embedded.end.metatag.php", "text.html.php meta.embedded.line.php punctuation.section.embedded.end.metatag.php source.php", "text.html.php meta.embedded.block.php punctuation.section.embedded.end.metatag.php source.php", "text.html.php meta.embedded.block.php punctuation.section.embedded.end.php source.php", "text.html.php meta.embedded.line.php punctuation.section.embedded.end.php source.php"],
 			"settings": {
 				"foreground": "#CD6A50"
 			}
