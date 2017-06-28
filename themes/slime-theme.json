@@ -345,7 +345,7 @@
 			"name": "TS This",
 			"scope": "variable.language.this.ts",
 			"settings": {
-				"foreground": "#BEC7A9"
+				"foreground": "#E6DDA8"
 			}
 		},
 		{
