@@ -97,8 +97,8 @@
 			"name": "Comments",
 			"scope": "comment, comment.block.html",
 			"settings": {
-				"foreground": "#616b69",
-				"fontStyle": "italic"
+				"foreground": "#8A8A8A",
+				"fontStyle": ""
 			}
 		},
 		{
