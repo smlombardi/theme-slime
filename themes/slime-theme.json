@@ -872,7 +872,7 @@
 			"name": "Logical Operator",
 			"scope": "  keyword.operator.comparison,   keyword.operator.logical,  keyword.operator.ternary",
 			"settings": {
-				"foreground": "#C2C2C2"
+				"foreground": "#EC7473"
 			}
 		},
 		{
