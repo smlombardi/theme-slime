@@ -846,14 +846,14 @@
             "name": "Code",
             "scope": ["markup.inline.raw.markdown", "text.html.markdown markup.fenced_code.block.markdown", "markup.inline.raw.string.markdown"],
             "settings": {
-                "foreground": "#a3be8c"
+                "foreground": "#C6DD88"
             }
         },
 		{
 			"name": "Code",
 			"scope": ["markup.fenced_code.block.markdown punctuation.definition.markdown", "punctuation.definition.raw.markdown"],
 			"settings": {
-				"foreground": "#7FA062"
+				"foreground": "#A5BF5E"
 			}
 		},
 		{
