@@ -786,20 +786,36 @@
 				"foreground": "#d0c39b"
 			}
 		},
-		{
+        {
+            "name": "Headings",
+            "scope": "punctuation.definition.heading.markdown",
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#A16893"
+            }
+        },
+        		{
 			"name": "Headings",
-			"scope": "markup.heading punctuation.definition.heading, entity.name.section",
+			"scope": "entity.name.section.markdown",
 			"settings": {
 				"fontStyle": "",
 				"foreground": "#BF93B5"
 			}
 		},
-		{
+        {
+            "name": "Bold",
+            "scope": "markup.bold",
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#CDA479"
+            }
+        },	
+        {
 			"name": "Bold",
-			"scope": "markup.bold",
+			"scope": "punctuation.definition.bold.markdown",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#ebcb8b"
+				"foreground": "#AF8C67"
 			}
 		},
 		{
@@ -810,19 +826,34 @@
 				"foreground": "#c0c0c0"
 			}
 		},
-		{
+        {
+            "name": "Italic",
+            "scope": "markup.italic",
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "#B4B378"
+            }
+        },
+        {
 			"name": "Italic",
-			"scope": "markup.italic",
+			"scope": "punctuation.definition.italic.markdown",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#B4B378"
+				"foreground": "#959451"
 			}
 		},
+        {
+            "name": "Code",
+            "scope": ["markup.inline.raw.markdown", "text.html.markdown markup.fenced_code.block.markdown", "markup.inline.raw.string.markdown"],
+            "settings": {
+                "foreground": "#a3be8c"
+            }
+        },
 		{
 			"name": "Code",
-			"scope": ["markup.inline.raw.markdown", "text.html.markdown markup.fenced_code.block.markdown"],
+			"scope": ["markup.fenced_code.block.markdown punctuation.definition.markdown", "punctuation.definition.raw.markdown"],
 			"settings": {
-				"foreground": "#a3be8c"
+				"foreground": "#7FA062"
 			}
 		},
 		{
@@ -839,11 +870,18 @@
 				"foreground": "#B2885F"
 			}
 		},
+        {
+            "name": "Lists",
+            "scope": "markup.list meta.paragraph.markdown",
+            "settings": {
+                "foreground": "#D1CAB5"
+            }
+        },
 		{
 			"name": "Lists",
-			"scope": "markup.list",
+			"scope": "beginning.punctuation.definition.list.markdown",
 			"settings": {
-				"foreground": "#ababab"
+				"foreground": "#F0E1B3"
 			}
 		},
 		{
