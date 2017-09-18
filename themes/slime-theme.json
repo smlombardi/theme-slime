@@ -420,7 +420,7 @@
 		},
 		{
 			"name": "CSS property value",
-			"scope": "meta.property-group support.constant.property-value.css, meta.property-list.css meta.property-value.css, meta.property-value support.constant.property-value.css, meta.property-group support.constant.property-value.scss, meta.property-group support.constant.property-value.sass, meta.property-value support.constant.property-value.scss, meta.property-value support.constant.property-value.sass, variable.parameter.misc.css, parameter.less.data-uri comment markup.raw, source.less meta.property-value.css, meta.property-value.scss",
+			"scope": "meta.property-group support.constant.property-value.css, meta.property-list.css meta.property-value.css, meta.property-value support.constant.property-value.css, meta.property-group support.constant.property-value.scss, meta.property-group support.constant.property-value.sass, meta.property-value support.constant.property-value.scss, meta.property-value support.constant.property-value.sass, variable.parameter.misc.css, parameter.less.data-uri comment markup.raw, source.less meta.property-value.css, meta.property-value.scss, support.constant.property-value.css",
 			"settings": {
 				"foreground": "#C0C0C3"
 			}
@@ -518,6 +518,13 @@
 			}
 		},
 		{
+			"name": "SCSS Variable",
+			"scope": "variable.scss",
+			"settings": {
+				"foreground": "#B6A090"
+			}
+		},
+		{
 			"name": "SCSS Attribute Value",
 			"scope": "string.quoted.double.attribute-value.scss",
 			"settings": {
@@ -528,7 +535,7 @@
 			"name": "SCSS Function",
 			"scope": "  support.function.misc.scss,   keyword.control.at-rule.function.scss,   keyword.control.at-rule.function.scss punctuation.definition,   entity.name.function.scss",
 			"settings": {
-				"foreground": "#96C47B"
+				"foreground": "#8BA67C"
 			}
 		},
 		{
@@ -682,7 +689,21 @@
 			"name": "Sass Tag Reference ampersand",
 			"scope": "entity.name.tag.reference.scss",
 			"settings": {
-				"foreground": "#BDB66F"
+				"foreground": "#B6BD86"
+			}
+		},
+		{
+			"name": "Sass Map Key",
+			"scope": "meta.definition.variable.map.scss support.type.map.key.scss",
+			"settings": {
+				"foreground": "#DCB5C4"
+			}
+		},
+		{
+			"name": "Sass Map Variable",
+			"scope": "meta.definition.variable.map.scss variable.scss",
+			"settings": {
+				"foreground": "#BE859B"
 			}
 		},
 		{
