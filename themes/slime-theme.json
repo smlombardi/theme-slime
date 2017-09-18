@@ -528,7 +528,7 @@
 			"name": "SCSS Function",
 			"scope": "  support.function.misc.scss,   keyword.control.at-rule.function.scss,   keyword.control.at-rule.function.scss punctuation.definition,   entity.name.function.scss",
 			"settings": {
-				"foreground": "#C3B064"
+				"foreground": "#96C47B"
 			}
 		},
 		{
