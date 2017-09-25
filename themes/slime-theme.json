@@ -959,14 +959,14 @@
 			"name": "Property Value",
 			"scope": "meta.structure.dictionary.value.json, string.quoted.double.json,meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json support.type.property-name.json,meta.structure.dictionary.value.json string.quoted.double.json punctuation.definition.string.begin.json,meta.structure.dictionary.value.json string.quoted.double.json punctuation.definition.string.end.json",
 			"settings": {
-				"foreground": "#9FB283"
+				"foreground": "#A8B298"
 			}
 		},
 		{
 			"name": "Property Name",
 			"scope": "support.type.property-name.json,meta.structure.dictionary.json support.type.property-name.json punctuation.support.type.property-name.begin.json,meta.structure.dictionary.json support.type.property-name.json punctuation.support.type.property-name.end.json,meta.structure.array.json meta.structure.dictionary.json support.type.property-name.json,meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json support.type.property-name.json",
 			"settings": {
-				"foreground": "#81A7A3"
+				"foreground": "#698885"
 			}
 		},
 		{
@@ -980,7 +980,7 @@
 			"name": "JSON quotes",
 			"scope": "  meta.structure.dictionary.json support.type.property-name.json punctuation.support.type.property-name.begin.json,  meta.structure.dictionary.json support.type.property-name.json punctuation.support.type.property-name.end.json,  meta.structure.dictionary.value.json string.quoted.double.json punctuation.definition.string.begin.json,  meta.structure.dictionary.value.json string.quoted.double.json punctuation.definition.string.end.json",
 			"settings": {
-				"foreground": "#c0c0c0"
+				"foreground": "#AFAFAF"
 			}
 		},
 		{
