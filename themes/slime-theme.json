@@ -327,11 +327,18 @@
 				"foreground": "#9CAE8A"
 			}
 		},
-		{
+        {
+            "name": "ts return",
+            "scope": "  support.type.class.declaration.method.return.primitive.ts,   type.annotation.support.class.declaration.method.parameters.primitive.ts",
+            "settings": {
+                "foreground": "#abdee8"
+            }
+        },
+        {
 			"name": "ts return",
-			"scope": "  support.type.class.declaration.method.return.primitive.ts,   type.annotation.support.class.declaration.method.parameters.primitive.ts",
+			"scope": "punctuation.definition.template-expression.begin.ts, punctuation.definition.template-expression.end.ts",
 			"settings": {
-				"foreground": "#abdee8"
+				"foreground": "#B9CA95"
 			}
 		},
 		{
