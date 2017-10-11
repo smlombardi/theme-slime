@@ -594,7 +594,7 @@
 		},
         {
             "name": "SCSS keyword control",
-            "scope": "keyword.control.else.scss, keyword.control.return.scss, keyword.control.if.scss, meta.at-rule.each.scss keyword.control.each.scss, keyword.control.warn.scss",
+            "scope": "keyword.control.else.scss, keyword.control.return.scss, keyword.control.if.scss, meta.at-rule.each.scss keyword.control.each.scss, keyword.control.warn.scss, meta.at-rule.each.scss keyword.control.operator",
             "settings": {
                 "foreground": "#D99060"
             }
