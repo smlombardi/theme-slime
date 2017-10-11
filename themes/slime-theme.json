@@ -32,6 +32,7 @@
 		"inputOption.activeBorder": "#a03f9b",
 		"list.activeSelectionBackground": "#405c50",
 		"list.inactiveSelectionBackground": "#405c5080",
+        "list.activeSelectionForeground": "#ffffff",
 	    "list.focusBackground": "#405c50",
 		"list.highlightForeground": "#E1B974",
         "list.focusForeground": "#ffffff",
@@ -68,7 +69,9 @@
 		"terminal.ansiBrightBlue": "#6D9CBE",
 		"terminal.ansiBrightMagenta": "#B081B9",
 		"terminal.ansiBrightCyan": "#80B5B3",
-		"terminal.ansiBrightWhite": "#efefef"
+		"terminal.ansiBrightWhite": "#efefef",
+        "git.color.untracked": "#A8B298",
+        "git.color.modified": "#D1BD99"
 	},
 	"tokenColors": [
 		{
