@@ -6,6 +6,8 @@
 		"activityBarBadge.foreground": "#ffffff",
 		"button.background": "#2F6260",
 		"editor.background": "#24292a",
+        "editorBracketMatch.border": "#5c6563EE",
+        "editorBracketMatch.background": "#161919",
         "editor.findMatchHighlightBackground": "#6A9A8433",
 		"editor.findMatchBackground": "#6A9A8499",
 		"editor.findRangeHighlightBackground": "#405c5070",
