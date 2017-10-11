@@ -557,11 +557,25 @@
 				"foreground": "#82A66D"
 			}
 		},
+        {
+            "name": "SCSS Function",
+            "scope": "  support.function.misc.scss,   keyword.control.at-rule.function.scss,   keyword.control.at-rule.function.scss punctuation.definition,   entity.name.function.scss",
+            "settings": {
+                "foreground": "#8BA67C"
+            }
+        },
+        {
+            "name": "SCSS @Function",
+            "scope": "keyword.control.at-rule.function.scss, keyword.control.at-rule.function.scss punctuation.definition",
+            "settings": {
+                "foreground": "#B3C564"
+            }
+        },
 		{
-			"name": "SCSS Function",
-			"scope": "  support.function.misc.scss,   keyword.control.at-rule.function.scss,   keyword.control.at-rule.function.scss punctuation.definition,   entity.name.function.scss",
+			"name": "SCSS @Function at-sign",
+			"scope": "keyword.control.at-rule.function.scss, keyword.control.at-rule.function.scss punctuation.definition",
 			"settings": {
-				"foreground": "#8BA67C"
+				"foreground": "#97A754"
 			}
 		},
 		{
@@ -578,11 +592,18 @@
 				"foreground": "#9F995D"
 			}
 		},
+        {
+            "name": "SCSS keyword control",
+            "scope": "keyword.control.else.scss, keyword.control.return.scss, keyword.control.if.scss, meta.at-rule.each.scss keyword.control.each.scss, keyword.control.warn.scss",
+            "settings": {
+                "foreground": "#D99060"
+            }
+        },
 		{
-			"name": "SCSS keyword control",
-			"scope": "keyword.control.else.scss, keyword.control.else.scss punctuation.definition, keyword.control.return.scss, keyword.control.return.scss punctuation.definition, keyword.control.if.scss, keyword.control.if.scss punctuation.definition,  meta.at-rule.each.scss keyword.control.each.scss,  meta.at-rule.each.scss keyword.control.each.scss punctuation.definition,  meta.at-rule.each.scss keyword.control.operator",
+			"name": "SCSS keyword control at-sign",
+			"scope": "keyword.control.else.scss punctuation.definition, keyword.control.return.scss punctuation.definition, keyword.control.if.scss punctuation.definition,  keyword.control.each.scss punctuation.definition, keyword.control.warn.scss punctuation.definition",
 			"settings": {
-				"foreground": "#D99060"
+				"foreground": "#BB7C52"
 			}
 		},
 		{
@@ -708,16 +729,10 @@
 			"name": "Sass Interpolation",
 			"scope": "variable.interpolation.scss,punctuation.definition.interpolation.begin.bracket.curly.scss,punctuation.definition.interpolation.end.bracket.curly.scss",
 			"settings": {
-				"foreground": "#E6CE64"
+				"foreground": "#E6D99B"
 			}
 		},
-		{
-			"name": "Sass Interpolated Variable",
-			"scope": "variable.interpolation.scss variable.scss",
-			"settings": {
-				"foreground": "#978181"
-			}
-		},
+
 		{
 			"name": "Sass Tag Reference ampersand",
 			"scope": "entity.name.tag.reference.scss",
@@ -957,14 +972,14 @@
 			"name": "Punctuation",
 			"scope": ["punctuation", "punctuation.definition", "punctuation.section.function", "punctuation.separator", "punctuation.support.type.property-name", "punctuation.accessor.ts", "meta.brace.round", "meta.brace.square", "meta.type.annotation.ts", "support.constant.mathematical-symbols", "block.brace.array.literal.square", "block.brace.round", "block.punctuation", "brace.array.literal.square", "brace.type.square", "punctuation.decorator.objectliteral.object.member.accessor", "punctuation.section", "meta.at-rule.media.scss", "keyword.operator.css", "source.css.scss", "punctuation.accessor.js", "punctuation.terminator", "text.html.php meta.tag.block.any.html", "text.html.php meta.embedded.block.php source.php", "text.html.php meta.embedded.line.php source.php", "punctuation.support.type.property-name.begin.json", "punctuation.support.type.property-name.end.json", "punctuation.definition.string.begin.js", "punctuation.definition.string.end.js","punctuation.definition.string.begin.ts", "punctuation.definition.string.end.ts"],
 			"settings": {
-				"foreground": "#D2D2D2"
+				"foreground": "#CCD2BE"
 			}
 		},
 		{
 			"name": "Logical Operator",
 			"scope": "  keyword.operator.comparison,   keyword.operator.logical,  keyword.operator.ternary",
 			"settings": {
-				"foreground": "#EC7473"
+				"foreground": "#CCD2BE"
 			}
 		},
 		{
