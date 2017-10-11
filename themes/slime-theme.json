@@ -14,7 +14,7 @@
 		"editor.rangeHighlightBackground": "#557B6A33",
 		"editor.selectionBackground": "#687F7B66",
         "editor.selectionHighlightBackground": "#687F7B33",
-        "editor.wordHighlightBackground": "#597F7933",
+        "editor.wordHighlightBackground": "#8F9E6E66",
 		"editorCursor.foreground": "#a8df5a",
         "editorGroupHeader.tabsBackground": "#282e2f",
 		"editorHoverWidget.border": "#95A29D",
