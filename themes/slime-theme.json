@@ -110,7 +110,7 @@
 			"scope": "comment, comment.block.html",
 			"settings": {
 				"foreground": "#747F7DCC",
-				"fontStyle": "italic"
+				"fontStyle": ""
 			}
 		},
 		{
