@@ -2,8 +2,10 @@
 	"type": "dark",
 	"colors": {
 		"activityBar.background": "#3B413F",
-		"activityBarBadge.background": "#a03f9b",
-		"activityBarBadge.foreground": "#ffffff",
+        "activityBarBadge.background": "#a03f9b",
+        "activityBarBadge.foreground": "#ffffff",
+		"badge.background": "#90599B",
+		"badge.foreground": "#eeeeee",
 		"button.background": "#2F6260",
 		"editor.background": "#24292a",
         "editorBracketMatch.border": "#5c6563EE",
@@ -629,7 +631,7 @@
 			"name": "CSS at-media attribute",
 			"scope": "support.type.property-name.media,meta.at-rule.include.scss,meta.at-rule.include.scss support.constant.mathematical-symbols.scss",
 			"settings": {
-				"foreground": "#C28C79"
+				"foreground": "#83A5A1"
 			}
 		},
 		{
@@ -646,11 +648,18 @@
 				"foreground": "#e78484"
 			}
 		},
+        {
+            "name": "SCSS at-Rule Mixin at-sign",
+            "scope": "keyword.control.at-rule.mixin.scss punctuation.definition",
+            "settings": {
+                "foreground": "#AA6161"
+            }
+        },
 		{
-			"name": "SCSS at-Rule Mixin at-sign",
-			"scope": "keyword.control.at-rule.mixin.scss punctuation.definition",
+			"name": "SCSS @mixin name",
+			"scope": "meta.at-rule.mixin.scss entity.name.function.scss, meta.at-rule.include.scss entity.name.function.scss",
 			"settings": {
-				"foreground": "#AA6161"
+				"foreground": "#C98B8B"
 			}
 		},
 		{
@@ -742,7 +751,7 @@
 			"name": "Sass Tag Reference ampersand",
 			"scope": "entity.name.tag.reference.scss",
 			"settings": {
-				"foreground": "#B6BD86"
+				"foreground": "#DCCA9C"
 			}
 		},
 		{
