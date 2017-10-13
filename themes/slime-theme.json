@@ -74,8 +74,8 @@
 		"terminal.ansiBrightMagenta": "#B081B9",
 		"terminal.ansiBrightCyan": "#80B5B3",
 		"terminal.ansiBrightWhite": "#efefef",
-        "git.color.untracked": "#A8B298",
-        "git.color.modified": "#D1BD99"
+        "git.color.untracked": "#7E935A",
+        "git.color.modified": "#B38B42"
 	},
 	"tokenColors": [
 		{
