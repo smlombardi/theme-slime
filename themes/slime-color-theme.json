@@ -2,25 +2,25 @@
 	"type": "dark",
 	"colors": {
 		"activityBar.background": "#3B413F",
-        "activityBarBadge.background": "#a03f9b",
-        "activityBarBadge.foreground": "#ffffff",
+		"activityBarBadge.background": "#a03f9b",
+		"activityBarBadge.foreground": "#ffffff",
 		"badge.background": "#90599B",
 		"badge.foreground": "#eeeeee",
 		"button.background": "#2F6260",
 		"editor.background": "#24292a",
-        "editorBracketMatch.border": "#5c6563EE",
-        "editorBracketMatch.background": "#161919",
-        "editor.findMatchHighlightBackground": "#6A9A8433",
+		"editorBracketMatch.border": "#5c6563EE",
+		"editorBracketMatch.background": "#161919",
+		"editor.findMatchHighlightBackground": "#6A9A8433",
 		"editor.findMatchBackground": "#6A9A8499",
 		"editor.findRangeHighlightBackground": "#405c5070",
 		"editor.foreground": "#e0e0e0",
 		"editor.lineHighlightBackground": "#65917d11",
 		"editor.rangeHighlightBackground": "#557B6A33",
 		"editor.selectionBackground": "#687F7B66",
-        "editor.selectionHighlightBackground": "#687F7B33",
-        "editor.wordHighlightBackground": "#8F9E6E66",
+		"editor.selectionHighlightBackground": "#687F7B33",
+		"editor.wordHighlightBackground": "#8F9E6E66",
 		"editorCursor.foreground": "#a8df5a",
-        "editorGroupHeader.tabsBackground": "#282e2f",
+		"editorGroupHeader.tabsBackground": "#282e2f",
 		"editorHoverWidget.border": "#95A29D",
 		"editorHoverWidget.background": "#282e2f",
 		"editorIndentGuide.background": "#3c4140",
@@ -36,17 +36,17 @@
 		"inputOption.activeBorder": "#a03f9b",
 		"list.activeSelectionBackground": "#405c50",
 		"list.inactiveSelectionBackground": "#405c5080",
-        "list.activeSelectionForeground": "#ffffff",
-	    "list.focusBackground": "#405c50",
+		"list.activeSelectionForeground": "#ffffff",
+		"list.focusBackground": "#405c50",
 		"list.highlightForeground": "#E1B974",
-        "list.focusForeground": "#ffffff",
-        "list.hoverForeground": "#e0e0e0",
-	    "input.background": "#24292a",
-	    "input.border": "#37413F",
-	    "pickerGroup.foreground": "#9fb283",
+		"list.focusForeground": "#ffffff",
+		"list.hoverForeground": "#e0e0e0",
+		"input.background": "#24292a",
+		"input.border": "#37413F",
+		"pickerGroup.foreground": "#9fb283",
 		"list.hoverBackground": "#405c5033",
 		"sideBar.background": "#282e2f",
-        "sideBar.border": "#343b3cee",
+		"sideBar.border": "#343b3cee",
 		"sideBarTitle.foreground": "#ffffff",
 		"statusBar.background": "#282e2f",
 		"statusBar.debuggingBackground": "#cd6564",
@@ -55,7 +55,7 @@
 		"tab.activeBackground": "#24292a",
 		"tab.border": "#343b3cee",
 		"tab.inactiveBackground": "#282e2f",
-        "titleBar.activeBackground": "#282e2f",
+		"titleBar.activeBackground": "#282e2f",
 		"titleBar.inactiveBackground": "#282e2f",
 		"terminal.background": "#1e2222",
 		"terminal.ansiBlack": "#666666",
@@ -74,14 +74,13 @@
 		"terminal.ansiBrightMagenta": "#B081B9",
 		"terminal.ansiBrightCyan": "#80B5B3",
 		"terminal.ansiBrightWhite": "#efefef",
-        "git.color.untracked": "#7E935A",
-        "git.color.modified": "#B38B42"
+		"git.color.untracked": "#7E935A",
+		"git.color.modified": "#a8a45b"
 	},
 	"tokenColors": [
 		{
 			"settings": {
-				"foreground": "#e0e0e0ff",
-				"background": "#24292aff"
+				"foreground": "#e0e0e0ff"
 			}
 		},
 		{
@@ -271,7 +270,12 @@
 		},
 		{
 			"name": "Literal Key",
-			"scope": ["meta.object-literal.key",  "meta.object.member.object-literal.key",  "meta.object-literal.key.js entity.name.function.js", "meta.object-literal.key.ts string.quoted.double.ts"],
+			"scope": [
+				"meta.object-literal.key",
+				"meta.object.member.object-literal.key",
+				"meta.object-literal.key.js entity.name.function.js",
+				"meta.object-literal.key.ts string.quoted.double.ts"
+			],
 			"settings": {
 				"foreground": "#AC9E8C"
 			}
@@ -339,14 +343,14 @@
 				"foreground": "#9CAE8A"
 			}
 		},
-        {
-            "name": "ts return",
-            "scope": "  support.type.class.declaration.method.return.primitive.ts,   type.annotation.support.class.declaration.method.parameters.primitive.ts",
-            "settings": {
-                "foreground": "#abdee8"
-            }
-        },
-        {
+		{
+			"name": "ts return",
+			"scope": "  support.type.class.declaration.method.return.primitive.ts,   type.annotation.support.class.declaration.method.parameters.primitive.ts",
+			"settings": {
+				"foreground": "#abdee8"
+			}
+		},
+		{
 			"name": "ts return",
 			"scope": "punctuation.definition.template-expression.begin.ts, punctuation.definition.template-expression.end.ts",
 			"settings": {
@@ -416,20 +420,20 @@
 				"foreground": "#BEB558"
 			}
 		},
-        {
-            "name": "CSS ID Selector",
-            "scope": "entity.other.attribute-name.id.css",
-            "settings": {
-                "foreground": "#BE7C81"
-            }
-        },
-        {
-            "name": "CSS ID Selector Punctuation",
-            "scope": "entity.other.attribute-name.id.css punctuation.definition.entity.css",
-            "settings": {
-                "foreground": "#A0686D"
-            }
-        },
+		{
+			"name": "CSS ID Selector",
+			"scope": "entity.other.attribute-name.id.css",
+			"settings": {
+				"foreground": "#BE7C81"
+			}
+		},
+		{
+			"name": "CSS ID Selector Punctuation",
+			"scope": "entity.other.attribute-name.id.css punctuation.definition.entity.css",
+			"settings": {
+				"foreground": "#A0686D"
+			}
+		},
 		{
 			"name": "CSS property name",
 			"scope": "entity.name.tag.custom.sass,entity.name.tag.custom.scss, meta.property-list.css meta.property-name.css, meta.property-list.scss meta.property-name.sass, meta.property-list.scss meta.property-name.scss, support.type.property-name.css, support.type.property-name.sass, support.type.property-name.scss",
@@ -479,13 +483,13 @@
 				"foreground": "#8F9D6A"
 			}
 		},
-        {
-            "name": "Sass Placeholder",
-            "scope": "entity.other.attribute-name.placeholder.scss, entity.other.attribute-name.placeholder.css",
-            "settings": {
-                "foreground": "#D1B781"
-            }
-        },
+		{
+			"name": "Sass Placeholder",
+			"scope": "entity.other.attribute-name.placeholder.scss, entity.other.attribute-name.placeholder.css",
+			"settings": {
+				"foreground": "#D1B781"
+			}
+		},
 		{
 			"name": "Sass Placeholder %",
 			"scope": "entity.other.attribute-name.placeholder.scss punctuation.definition.entity.sass, entity.other.attribute-name.placeholder.css punctuation.definition.entity.css ",
@@ -564,20 +568,20 @@
 				"foreground": "#82A66D"
 			}
 		},
-        {
-            "name": "SCSS Function",
-            "scope": "  support.function.misc.scss,   keyword.control.at-rule.function.scss,   keyword.control.at-rule.function.scss punctuation.definition,   entity.name.function.scss",
-            "settings": {
-                "foreground": "#8BA67C"
-            }
-        },
-        {
-            "name": "SCSS @Function",
-            "scope": "keyword.control.at-rule.function.scss, keyword.control.at-rule.function.scss punctuation.definition",
-            "settings": {
-                "foreground": "#B3C564"
-            }
-        },
+		{
+			"name": "SCSS Function",
+			"scope": "  support.function.misc.scss,   keyword.control.at-rule.function.scss,   keyword.control.at-rule.function.scss punctuation.definition,   entity.name.function.scss",
+			"settings": {
+				"foreground": "#8BA67C"
+			}
+		},
+		{
+			"name": "SCSS @Function",
+			"scope": "keyword.control.at-rule.function.scss, keyword.control.at-rule.function.scss punctuation.definition",
+			"settings": {
+				"foreground": "#B3C564"
+			}
+		},
 		{
 			"name": "SCSS @Function at-sign",
 			"scope": "keyword.control.at-rule.function.scss, keyword.control.at-rule.function.scss punctuation.definition",
@@ -599,13 +603,13 @@
 				"foreground": "#9F995D"
 			}
 		},
-        {
-            "name": "SCSS keyword control",
-            "scope": "keyword.control.else.scss, keyword.control.return.scss, keyword.control.if.scss, meta.at-rule.each.scss keyword.control.each.scss, keyword.control.warn.scss, meta.at-rule.each.scss keyword.control.operator",
-            "settings": {
-                "foreground": "#D99060"
-            }
-        },
+		{
+			"name": "SCSS keyword control",
+			"scope": "keyword.control.else.scss, keyword.control.return.scss, keyword.control.if.scss, meta.at-rule.each.scss keyword.control.each.scss, keyword.control.warn.scss, meta.at-rule.each.scss keyword.control.operator",
+			"settings": {
+				"foreground": "#D99060"
+			}
+		},
 		{
 			"name": "SCSS keyword control at-sign",
 			"scope": "keyword.control.else.scss punctuation.definition, keyword.control.return.scss punctuation.definition, keyword.control.if.scss punctuation.definition,  keyword.control.each.scss punctuation.definition, keyword.control.warn.scss punctuation.definition",
@@ -648,13 +652,13 @@
 				"foreground": "#e78484"
 			}
 		},
-        {
-            "name": "SCSS at-Rule Mixin at-sign",
-            "scope": "keyword.control.at-rule.mixin.scss punctuation.definition",
-            "settings": {
-                "foreground": "#AA6161"
-            }
-        },
+		{
+			"name": "SCSS at-Rule Mixin at-sign",
+			"scope": "keyword.control.at-rule.mixin.scss punctuation.definition",
+			"settings": {
+				"foreground": "#AA6161"
+			}
+		},
 		{
 			"name": "SCSS @mixin name",
 			"scope": "meta.at-rule.mixin.scss entity.name.function.scss, meta.at-rule.include.scss entity.name.function.scss",
@@ -746,7 +750,6 @@
 				"foreground": "#E6D99B"
 			}
 		},
-
 		{
 			"name": "Sass Tag Reference ampersand",
 			"scope": "entity.name.tag.reference.scss",
@@ -777,7 +780,16 @@
 		},
 		{
 			"name": "PHP delimiters",
-			"scope": ["punctuation.section.embedded.begin.php", "punctuation.section.embedded.end.php", "punctuation.section.embedded.begin.metatag.php", "punctuation.section.embedded.end.metatag.php", "text.html.php meta.embedded.line.php punctuation.section.embedded.end.metatag.php source.php", "text.html.php meta.embedded.block.php punctuation.section.embedded.end.metatag.php source.php", "text.html.php meta.embedded.block.php punctuation.section.embedded.end.php source.php", "text.html.php meta.embedded.line.php punctuation.section.embedded.end.php source.php"],
+			"scope": [
+				"punctuation.section.embedded.begin.php",
+				"punctuation.section.embedded.end.php",
+				"punctuation.section.embedded.begin.metatag.php",
+				"punctuation.section.embedded.end.metatag.php",
+				"text.html.php meta.embedded.line.php punctuation.section.embedded.end.metatag.php source.php",
+				"text.html.php meta.embedded.block.php punctuation.section.embedded.end.metatag.php source.php",
+				"text.html.php meta.embedded.block.php punctuation.section.embedded.end.php source.php",
+				"text.html.php meta.embedded.line.php punctuation.section.embedded.end.php source.php"
+			],
 			"settings": {
 				"foreground": "#CD6A50"
 			}
@@ -869,15 +881,15 @@
 				"foreground": "#d0c39b"
 			}
 		},
-        {
-            "name": "Headings",
-            "scope": "punctuation.definition.heading.markdown",
-            "settings": {
-                "fontStyle": "",
-                "foreground": "#A16893"
-            }
-        },
-        		{
+		{
+			"name": "Headings",
+			"scope": "punctuation.definition.heading.markdown",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#A16893"
+			}
+		},
+		{
 			"name": "Headings",
 			"scope": "entity.name.section.markdown",
 			"settings": {
@@ -885,15 +897,15 @@
 				"foreground": "#BF93B5"
 			}
 		},
-        {
-            "name": "Bold",
-            "scope": "markup.bold",
-            "settings": {
-                "fontStyle": "",
-                "foreground": "#CDA479"
-            }
-        },	
-        {
+		{
+			"name": "Bold",
+			"scope": "markup.bold",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#CDA479"
+			}
+		},
+		{
 			"name": "Bold",
 			"scope": "punctuation.definition.bold.markdown",
 			"settings": {
@@ -909,15 +921,15 @@
 				"foreground": "#c0c0c0"
 			}
 		},
-        {
-            "name": "Italic",
-            "scope": "markup.italic",
-            "settings": {
-                "fontStyle": "italic",
-                "foreground": "#B4B378"
-            }
-        },
-        {
+		{
+			"name": "Italic",
+			"scope": "markup.italic",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#B4B378"
+			}
+		},
+		{
 			"name": "Italic",
 			"scope": "punctuation.definition.italic.markdown",
 			"settings": {
@@ -925,16 +937,23 @@
 				"foreground": "#959451"
 			}
 		},
-        {
-            "name": "Code",
-            "scope": ["markup.inline.raw.markdown", "text.html.markdown markup.fenced_code.block.markdown", "markup.inline.raw.string.markdown"],
-            "settings": {
-                "foreground": "#C6DD88"
-            }
-        },
 		{
 			"name": "Code",
-			"scope": ["markup.fenced_code.block.markdown punctuation.definition.markdown", "punctuation.definition.raw.markdown"],
+			"scope": [
+				"markup.inline.raw.markdown",
+				"text.html.markdown markup.fenced_code.block.markdown",
+				"markup.inline.raw.string.markdown"
+			],
+			"settings": {
+				"foreground": "#C6DD88"
+			}
+		},
+		{
+			"name": "Code",
+			"scope": [
+				"markup.fenced_code.block.markdown punctuation.definition.markdown",
+				"punctuation.definition.raw.markdown"
+			],
 			"settings": {
 				"foreground": "#A5BF5E"
 			}
@@ -953,13 +972,13 @@
 				"foreground": "#B2885F"
 			}
 		},
-        {
-            "name": "Lists",
-            "scope": "markup.list meta.paragraph.markdown",
-            "settings": {
-                "foreground": "#D1CAB5"
-            }
-        },
+		{
+			"name": "Lists",
+			"scope": "markup.list meta.paragraph.markdown",
+			"settings": {
+				"foreground": "#D1CAB5"
+			}
+		},
 		{
 			"name": "Lists",
 			"scope": "beginning.punctuation.definition.list.markdown",
@@ -984,7 +1003,39 @@
 		},
 		{
 			"name": "Punctuation",
-			"scope": ["punctuation", "punctuation.definition", "punctuation.section.function", "punctuation.separator", "punctuation.support.type.property-name", "punctuation.accessor.ts", "meta.brace.round", "meta.brace.square", "meta.type.annotation.ts", "support.constant.mathematical-symbols", "block.brace.array.literal.square", "block.brace.round", "block.punctuation", "brace.array.literal.square", "brace.type.square", "punctuation.decorator.objectliteral.object.member.accessor", "punctuation.section", "meta.at-rule.media.scss", "keyword.operator.css", "source.css.scss", "punctuation.accessor.js", "punctuation.terminator", "text.html.php meta.tag.block.any.html", "text.html.php meta.embedded.block.php source.php", "text.html.php meta.embedded.line.php source.php", "punctuation.support.type.property-name.begin.json", "punctuation.support.type.property-name.end.json", "punctuation.definition.string.begin.js", "punctuation.definition.string.end.js","punctuation.definition.string.begin.ts", "punctuation.definition.string.end.ts"],
+			"scope": [
+				"punctuation",
+				"punctuation.definition",
+				"punctuation.section.function",
+				"punctuation.separator",
+				"punctuation.support.type.property-name",
+				"punctuation.accessor.ts",
+				"meta.brace.round",
+				"meta.brace.square",
+				"meta.type.annotation.ts",
+				"support.constant.mathematical-symbols",
+				"block.brace.array.literal.square",
+				"block.brace.round",
+				"block.punctuation",
+				"brace.array.literal.square",
+				"brace.type.square",
+				"punctuation.decorator.objectliteral.object.member.accessor",
+				"punctuation.section",
+				"meta.at-rule.media.scss",
+				"keyword.operator.css",
+				"source.css.scss",
+				"punctuation.accessor.js",
+				"punctuation.terminator",
+				"text.html.php meta.tag.block.any.html",
+				"text.html.php meta.embedded.block.php source.php",
+				"text.html.php meta.embedded.line.php source.php",
+				"punctuation.support.type.property-name.begin.json",
+				"punctuation.support.type.property-name.end.json",
+				"punctuation.definition.string.begin.js",
+				"punctuation.definition.string.end.js",
+				"punctuation.definition.string.begin.ts",
+				"punctuation.definition.string.end.ts"
+			],
 			"settings": {
 				"foreground": "#CCD2BE"
 			}
@@ -1040,14 +1091,14 @@
 		},
 		{
 			"name": "Tags",
-			"scope": "punctuation.definition.tag", 
+			"scope": "punctuation.definition.tag",
 			"settings": {
 				"foreground": "#A69658"
 			}
-		},		
+		},
 		{
 			"name": "Tags",
-			"scope": "punctuation.definition.tag.begin.html source.js", 
+			"scope": "punctuation.definition.tag.begin.html source.js",
 			"settings": {
 				"foreground": "#A69658"
 			}
