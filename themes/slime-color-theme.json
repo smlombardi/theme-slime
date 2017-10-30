@@ -215,7 +215,6 @@
 			"name": "Strings, Inherited Class",
 			"scope": "  string,   string.quoted.double,   string.quoted.single,                      string.quoted.double.json,   string.quoted.single.css,  string.quoted.single.js,   string.quoted.single.scss,  constant.character.escape,   constant.character.escape.css,   constant.character.escape.scss,   constant.other.symbol,   entity.other.inherited-class,   invalid.illegal.bad-ampersand.html,  punctuation.definition.string.begin,  punctuation.definition.string.end",
 			"settings": {
-				"background": "",
 				"foreground": "#8CAEC1"
 			}
 		},
@@ -861,7 +860,6 @@
 			"name": "Invalid",
 			"scope": "invalid.illegal",
 			"settings": {
-				"background": "#00A8C6",
 				"foreground": "#F8F8F0"
 			}
 		},
@@ -869,7 +867,6 @@
 			"name": "Invalid Deprecated",
 			"scope": "invalid.deprecated",
 			"settings": {
-				"background": "#8FBE00",
 				"foreground": "#F8F8F0"
 			}
 		},
@@ -877,7 +874,6 @@
 			"name": "Ampersands in strings",
 			"scope": "string.quoted.double.html invalid.illegal.bad-ampersand.html",
 			"settings": {
-				"background": "#232323",
 				"foreground": "#d0c39b"
 			}
 		},
@@ -997,7 +993,6 @@
 			"name": "Separator",
 			"scope": "meta.separator",
 			"settings": {
-				"background": "#4f5b66",
 				"foreground": "#c0c5ce"
 			}
 		},
