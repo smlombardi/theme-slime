@@ -2,7 +2,7 @@
     "name": "slime",
     "displayName": "Slime Theme",
     "description": "A port of my Atom theme",
-    "version": "2.18.0",
+    "version": "2.19.0",
     "publisher": "smlombardi",
     "repository": {
         "type": "git",
