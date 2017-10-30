@@ -56,6 +56,7 @@
 		"tab.border": "#343b3cee",
 		"tab.inactiveBackground": "#282e2f",
 		"titleBar.activeBackground": "#282e2f",
+		"titleBar.border": "#343b3cee",
 		"titleBar.inactiveBackground": "#282e2f",
 		"terminal.background": "#1e2222",
 		"terminal.ansiBlack": "#666666",
