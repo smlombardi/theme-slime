@@ -181,21 +181,15 @@
 			"name": "Operators",
 			"scope": "keyword.operator",
 			"settings": {
-				"foreground": "#c0c0c0"
+				"foreground": "#b4b4b4"
 			}
 		},
-		{
-			"name": "Keyword Operator Expression TypeOf",
-			"scope": "keyword.operator.expression.typeof.js",
-			"settings": {
-				"foreground": "#ae5555"
-			}
-		},
+
 		{
 			"name": "Keyword Control",
 			"scope": "keyword.control",
 			"settings": {
-				"foreground": "#fdbc3e"
+				"foreground": "#d8d29a"
 			}
 		},
 		{
@@ -256,7 +250,7 @@
 		},
 		{
 			"name": "Support Variables",
-			"scope": "support.variable",
+			"scope": "support.variable, variable.other",
 			"settings": {
 				"foreground": "#b3a2c0"
 			}
@@ -272,16 +266,11 @@
 			"name": "Variable Parameter",
 			"scope": "variable.parameter.js",
 			"settings": {
-				"foreground": "#B5919F"
+				"foreground": "#B5919F",
+				"fontStyle": "italic"
 			}
 		},
-		{
-			"name": "Variable Object Property",
-			"scope": "variable.other.property, variable.other.object.property",
-			"settings": {
-				"foreground": "#759F9E"
-			}
-		},
+
 		{
 			"name": "Literal Key",
 			"scope": [
@@ -317,13 +306,7 @@
 				"foreground": "#c5a46f"
 			}
 		},
-		{
-			"name": "Keyword control loops",
-			"scope": "keyword.control.loop,  keyword.control.conditional",
-			"settings": {
-				"foreground": "#62a587"
-			}
-		},
+
 		{
 			"name": "Entity name type",
 			"scope": "entity.name.type",
@@ -1160,7 +1143,7 @@
 		},
 		{
 			"name": "JSDOC comments",
-			"scope": "comment.block.documentation.js, comment.block.documentation.js storage.type.class.jsdoc, comment.block.documentation.js storage.type.class.jsdoc punctuation.definition.block.tag.jsdoc, comment.block.documentation.js punctuation.definition.comment.js, punctuation.definition.bracket.curly.begin.jsdoc, punctuation.definition.bracket.curly.end.jsdoc, variable.other.jsdoc, variable.other.jsdoc source.embedded.js, variable.other.jsdoc keyword.operator.assignment.jsdoc, punctuation.definition.optional-value.begin.bracket.square.jsdoc, punctuation.definition.optional-value.end.bracket.square.jsdoc",
+			"scope": "comment.block.documentation.js, comment.block.documentation.js storage.type.class.jsdoc, comment.block.documentation.js storage.type.class.jsdoc punctuation.definition.block.tag.jsdoc, comment.block.documentation.js punctuation.definition.comment.js, punctuation.definition.bracket.curly.begin.jsdoc, punctuation.definition.bracket.curly.end.jsdoc, variable.other.jsdoc, variable.other.jsdoc source.embedded.js, variable.other.jsdoc keyword.operator.assignment.jsdoc, punctuation.definition.optional-value.begin.bracket.square.jsdoc, punctuation.definition.optional-value.end.bracket.square.jsdoc, entity.name.type.instance.jsdoc",
 			"settings": {
 				"foreground": "#777777"
 			}
