@@ -102,7 +102,7 @@
 			"name": "Classes",
 			"scope": "support.class, entity.name.class, entity.name.type.class, meta.class",
 			"settings": {
-				"foreground": "#C7AF3F"
+				"foreground": "#d6c05d"
 			}
 		},
 		{
@@ -213,8 +213,8 @@
 			}
 		},
 		{
-			"name": "Strings, Inherited Class",
-			"scope": "  string,   string.quoted.double,   string.quoted.single,                      string.quoted.double.json,   string.quoted.single.css,  string.quoted.single.js,   string.quoted.single.scss,  constant.character.escape,   constant.character.escape.css,   constant.character.escape.scss,   constant.other.symbol,   entity.other.inherited-class,   invalid.illegal.bad-ampersand.html,  punctuation.definition.string.begin,  punctuation.definition.string.end",
+			"name": "Strings",
+			"scope": "  string, string.quoted.double, string.quoted.single, string.quoted.double.json, string.quoted.single.css,  string.quoted.single.js, string.quoted.single.scss, constant.character.escape, constant.character.escape.css,   constant.character.escape.scss,  constant.other.symbol, invalid.illegal.bad-ampersand.html",
 			"settings": {
 				"foreground": "#8CAEC1"
 			}
@@ -241,10 +241,24 @@
 			}
 		},
 		{
+			"name": "React Text",
+			"scope": "meta.jsx.children.js",
+			"settings": {
+				"foreground": "#e1e2de"
+			}
+		},
+		{
 			"name": "Variables",
-			"scope": "variable,   variable.other.readwrite.js,   punctuation.definition.variable.php,   variable.other.php",
+			"scope": "variable, variable.other.readwrite.js, punctuation.definition.variable.php, variable.other.php, support.variable",
 			"settings": {
 				"foreground": "#B69094"
+			}
+		},
+		{
+			"name": "Support Variables",
+			"scope": "support.variable",
+			"settings": {
+				"foreground": "#b3a2c0"
 			}
 		},
 		{
@@ -287,39 +301,34 @@
 				"foreground": "#C7AF3F"
 			}
 		},
+
+
 		{
-			"name": "Support Function DOM",
-			"scope": "support.function.dom.js",
+			"name": "JS Support Variable Object Process",
+			"scope": "support.variable.object.process.js",
 			"settings": {
-				"foreground": "#C7AF3F"
-			}
-		},
-		{
-			"name": "Support Property DOM",
-			"scope": "support.variable.property",
-			"settings": {
-				"foreground": "#BDB66F"
+				"foreground": "#71b9a1"
 			}
 		},
 		{
 			"name": "ts keyword control import export",
-			"scope": "  keyword.control.export.ts,   keyword.control.flow.ts,   keyword.control.import.ts,   keyword.control.from.ts",
+			"scope": "keyword.control.export,   keyword.control.flow,   keyword.control.import,   keyword.control.from",
 			"settings": {
-				"foreground": "#CE853F"
+				"foreground": "#c5a46f"
 			}
 		},
 		{
-			"name": "ts keyword control loops",
-			"scope": "  keyword.control.loop.ts,  keyword.control.conditional.ts",
+			"name": "Keyword control loops",
+			"scope": "keyword.control.loop,  keyword.control.conditional",
 			"settings": {
-				"foreground": "#D9AC60"
+				"foreground": "#62a587"
 			}
 		},
 		{
-			"name": "ts entity name type",
-			"scope": "entity.name.type.ts",
+			"name": "Entity name type",
+			"scope": "entity.name.type",
 			"settings": {
-				"foreground": "#a9b7c7"
+				"foreground": "#8fc4ce"
 			}
 		},
 		{
@@ -330,10 +339,10 @@
 			}
 		},
 		{
-			"name": "ts storage modifier",
-			"scope": "storage.modifier.ts",
+			"name": "Storage modifier",
+			"scope": "storage.modifier",
 			"settings": {
-				"foreground": "#AB6767"
+				"foreground": "#ab9b67"
 			}
 		},
 		{
@@ -345,20 +354,13 @@
 		},
 		{
 			"name": "ts return",
-			"scope": "  support.type.class.declaration.method.return.primitive.ts,   type.annotation.support.class.declaration.method.parameters.primitive.ts",
+			"scope": "support.type.class.declaration.method.return.primitive.ts,   type.annotation.support.class.declaration.method.parameters.primitive.ts",
 			"settings": {
 				"foreground": "#abdee8"
 			}
 		},
 		{
-			"name": "ts return",
-			"scope": "punctuation.definition.template-expression.begin.ts, punctuation.definition.template-expression.end.ts",
-			"settings": {
-				"foreground": "#B9CA95"
-			}
-		},
-		{
-			"name": "Support",
+			"name": "TS Support Type Primitive",
 			"scope": "support.type.primitive.ts",
 			"settings": {
 				"foreground": "#C8BA7C"
@@ -371,23 +373,17 @@
 				"foreground": "#E6DDA8"
 			}
 		},
-		{
-			"name": "Array literal variable",
-			"scope": "  meta.array.literal.ts variable.other.readwrite.ts,  meta.parameters.ts variable.parameter.ts",
-			"settings": {
-				"foreground": "#BEC7A9"
-			}
-		},
+
 		{
 			"name": "class",
-			"scope": "  block.variable.other.object.class.declaration.property.method.ts,   block.variable.other.object.class.declaration.method.ts,   block.variable.other.object.array.literal.class.declaration.method.var.expr.ts,   block.variable.class.declaration.method.parameter.arrow,  variable.other.object.ts",
+			"scope": "block.variable.other.object.class.declaration.property.method.ts,   block.variable.other.object.class.declaration.method.ts,   block.variable.other.object.array.literal.class.declaration.method.var.expr.ts,   block.variable.class.declaration.method.parameter.arrow",
 			"settings": {
 				"foreground": "#a9b7c7"
 			}
 		},
 		{
-			"name": "class",
-			"scope": "  block.variable.other.object.class.declaration.method.ts,  block.variable.other.object.array.literal.class.declaration.method.var.expr.ts  block.variable.class.declaration.method.parameter.arrow.ts,  block.variable.other.class.declaration.property.method.ts",
+			"name": "TS method",
+			"scope": "block.variable.other.object.class.declaration.method.ts,  block.variable.other.object.array.literal.class.declaration.method.var.expr.ts  block.variable.class.declaration.method.parameter.arrow.ts,  block.variable.other.class.declaration.property.method.ts",
 			"settings": {
 				"foreground": "#b57b91"
 			}
@@ -724,7 +720,7 @@
 		},
 		{
 			"name": "SCSS Keyframes",
-			"scope": "meta.at-rule.keyframes.scss entity.other.attribute-name.scss,meta.at-rule.keyframes.body entity.other.keyframe-offset.percentage",
+			"scope": "meta.at-rule.keyframes.scss entity.other.attribute-name.scss,meta.at-rule.keyframes.body entity.other.keyframe-offset.percentage, entity.other.keyframe-offset.css",
 			"settings": {
 				"foreground": "#6897BB"
 			}
@@ -813,6 +809,27 @@
 			"scope": "  punctuation.definition.character-class.regexp",
 			"settings": {
 				"foreground": "#CD9081"
+			}
+		},
+		{
+			"name": "Regular Expression Group",
+			"scope": "punctuation.definition.group.regexp",
+			"settings": {
+				"foreground": "#e06060"
+			}
+		},
+		{
+			"name": "Regular Expression Group Nocapture",
+			"scope": "punctuation.definition.group.no-capture.regexp",
+			"settings": {
+				"foreground": "#a47bb8"
+			}
+		},
+		{
+			"name": "Regular Expression Anchor",
+			"scope": "keyword.control.anchor.regexp",
+			"settings": {
+				"foreground": "#7da85c"
 			}
 		},
 		{
@@ -1101,7 +1118,7 @@
 		},
 		{
 			"name": "Attributes",
-			"scope": "  meta.tag.any.html entity.other.attribute-name.html,   meta.tag.block.any.html entity.other.attribute-name.html,   meta.tag.inline.any.html entity.other.attribute-name.html,   meta.tag.structure.any.html entity.other.attribute-name.html,  meta.tag.other.html entity.other.attribute-name.html,  source.js.embedded.html entity.other.attribute-name.html,  entity.other.attribute-name.html, source.ts entity.other.attribute-name, entity.other.attribute-name.id.html",
+			"scope": "  meta.tag.any.html entity.other.attribute-name.html,   meta.tag.block.any.html entity.other.attribute-name.html,   meta.tag.inline.any.html entity.other.attribute-name.html,   meta.tag.structure.any.html entity.other.attribute-name.html,  meta.tag.other.html entity.other.attribute-name.html,  source.js.embedded.html entity.other.attribute-name.html,  entity.other.attribute-name.html, source.ts entity.other.attribute-name, entity.other.attribute-name.id.html, entity.other.attribute-name.js",
 			"settings": {
 				"foreground": "#98AA87"
 			}
@@ -1125,6 +1142,20 @@
 			"scope": "meta.tag.sgml.doctype.html",
 			"settings": {
 				"foreground": "#C48851"
+			}
+		},
+		{
+			"name": "Meta Template Expression",
+			"scope": "meta.template.expression.js punctuation.definition.template-expression, punctuation.definition.template-expression.begin.ts, punctuation.definition.template-expression.end.ts ",
+			"settings": {
+				"foreground": "#b4ce84"
+			}
+		},
+		{
+			"name": "Backticks",
+			"scope": "punctuation.definition.string.template.begin.js, punctuation.definition.string.template.end.js",
+			"settings": {
+				"foreground": "#da7979"
 			}
 		},
 		{
