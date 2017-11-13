@@ -244,16 +244,9 @@
 		},
 		{
 			"name": "Variables",
-			"scope": "variable, variable.other.readwrite.js, punctuation.definition.variable.php, variable.other.php, support.variable",
+			"scope": "variable, variable.other.readwrite.js, punctuation.definition.variable.php, variable.other, support.variable",
 			"settings": {
 				"foreground": "#B69094"
-			}
-		},
-		{
-			"name": "Support Variables",
-			"scope": "support.variable, variable.other",
-			"settings": {
-				"foreground": "#b3a2c0"
 			}
 		},
 		{
@@ -534,13 +527,7 @@
 				"foreground": "#AB6767"
 			}
 		},
-		{
-			"name": "SCSS Variable",
-			"scope": "variable.scss",
-			"settings": {
-				"foreground": "#B6A090"
-			}
-		},
+
 		{
 			"name": "SCSS Attribute Value",
 			"scope": "string.quoted.double.attribute-value.scss",
@@ -552,7 +539,7 @@
 			"name": "SCSS Function",
 			"scope": "  support.function.misc.scss,   keyword.control.at-rule.function.scss,   keyword.control.at-rule.function.scss punctuation.definition,   entity.name.function.scss",
 			"settings": {
-				"foreground": "#8BA67C"
+				"foreground": "#ccc379"
 			}
 		},
 		{
@@ -619,7 +606,7 @@
 			}
 		},
 		{
-			"name": "CSS at-import string",
+			"name": "SCSS at-import string",
 			"scope": "scss.meta.at-rule.import.string.quoted.single",
 			"settings": {
 				"foreground": "#82A66D"
@@ -643,7 +630,7 @@
 			"name": "SCSS @mixin name",
 			"scope": "meta.at-rule.mixin.scss entity.name.function.scss, meta.at-rule.include.scss entity.name.function.scss",
 			"settings": {
-				"foreground": "#C98B8B"
+				"foreground": "#c9ae8b"
 			}
 		},
 		{
@@ -710,6 +697,13 @@
 			}
 		},
 		{
+			"name": "SCSS Keyframes",
+			"scope": "meta.at-rule.keyframes.scss entity.name.function.scss",
+			"settings": {
+				"foreground": "#c9ae8b"
+			}
+		},
+		{
 			"name": "SCSS at-Rule Content",
 			"scope": "keyword.control.content.scss",
 			"settings": {
@@ -727,7 +721,7 @@
 			"name": "Sass Interpolation",
 			"scope": "variable.interpolation.scss,punctuation.definition.interpolation.begin.bracket.curly.scss,punctuation.definition.interpolation.end.bracket.curly.scss",
 			"settings": {
-				"foreground": "#E6D99B"
+				"foreground": "#c2da90"
 			}
 		},
 		{
