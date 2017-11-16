@@ -108,7 +108,7 @@
 		},
 		{
 			"name": "Comments",
-			"scope": "comment, comment.block.html",
+			"scope": "comment, comment.block.html, comment.block.documentation.phpdoc.php keyword.other.phpdoc.php",
 			"settings": {
 				"foreground": "#747F7DCC",
 				"fontStyle": ""
@@ -732,13 +732,6 @@
 			}
 		},
 		{
-			"name": "SCSS include argument",
-			"scope": "meta.property-list.scss meta.at-rule.include.scss",
-			"settings": {
-				"foreground": "#e1e2de"
-			}
-		},
-		{
 			"name": "Sass Map Key",
 			"scope": "meta.definition.variable.map.scss support.type.map.key.scss",
 			"settings": {
@@ -772,7 +765,7 @@
 				"text.html.php meta.embedded.line.php punctuation.section.embedded.end.php source.php"
 			],
 			"settings": {
-				"foreground": "#af7263"
+				"foreground": "#c8644d"
 			}
 		},
 		{
