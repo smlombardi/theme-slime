@@ -108,9 +108,9 @@
 		},
 		{
 			"name": "Comments",
-			"scope": "comment, comment.block.html",
+			"scope": "comment, comment.block.html, comment.block.documentation.phpdoc.php keyword.other.phpdoc.php",
 			"settings": {
-				"foreground": "#747F7DCC",
+				"foreground": "#5d6f7a",
 				"fontStyle": ""
 			}
 		},
@@ -732,13 +732,6 @@
 			}
 		},
 		{
-			"name": "SCSS include argument",
-			"scope": "meta.property-list.scss meta.at-rule.include.scss",
-			"settings": {
-				"foreground": "#e1e2de"
-			}
-		},
-		{
 			"name": "Sass Map Key",
 			"scope": "meta.definition.variable.map.scss support.type.map.key.scss",
 			"settings": {
@@ -772,7 +765,7 @@
 				"text.html.php meta.embedded.line.php punctuation.section.embedded.end.php source.php"
 			],
 			"settings": {
-				"foreground": "#af7263"
+				"foreground": "#c8644d"
 			}
 		},
 		{
@@ -1074,42 +1067,35 @@
 			}
 		},
 		{
-			"name": "Tags",
+			"name": "HTML Tag Background",
 			"scope": "text.html meta.tag.inline.any.html,text.html meta.tag.block.any.html,text.html source.js.embedded.html,text.html meta.tag.any.html,text.html meta.tag.structure.any.html,text.html meta.tag.other.html",
 			"settings": {
 				"foreground": "#c0c0c0"
 			}
 		},
 		{
-			"name": "Tags",
+			"name": "HTML Tag Name",
 			"scope": "entity.name.tag, keyword.control.html.elements, entity.name.tag.inline.any.html, entity.name.tag.block.any.html",
 			"settings": {
 				"foreground": "#C4B268"
 			}
 		},
 		{
-			"name": "Tags",
-			"scope": "punctuation.definition.tag",
+			"name": " HTML Tag Punctuation",
+			"scope": "punctuation.definition.tag, punctuation.definition.tag.begin.html source.js",
 			"settings": {
-				"foreground": "#A69658"
+				"foreground": "#808080"
 			}
 		},
 		{
-			"name": "Tags",
-			"scope": "punctuation.definition.tag.begin.html source.js",
-			"settings": {
-				"foreground": "#A69658"
-			}
-		},
-		{
-			"name": "Attributes",
+			"name": "HTML Tag Attribute Name",
 			"scope": "  meta.tag.any.html entity.other.attribute-name.html,   meta.tag.block.any.html entity.other.attribute-name.html,   meta.tag.inline.any.html entity.other.attribute-name.html,   meta.tag.structure.any.html entity.other.attribute-name.html,  meta.tag.other.html entity.other.attribute-name.html,  source.js.embedded.html entity.other.attribute-name.html,  entity.other.attribute-name.html, source.ts entity.other.attribute-name, entity.other.attribute-name.id.html, entity.other.attribute-name.js",
 			"settings": {
 				"foreground": "#98AA87"
 			}
 		},
 		{
-			"name": "Attribute Values",
+			"name": "HTML Tag Attribute Values",
 			"scope": "string.quoted.double.html, meta.template string.quoted.double,string.quoted.double.html invalid.illegal.bad-ampersand.html",
 			"settings": {
 				"foreground": "#82A2B4"
