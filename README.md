@@ -1,11 +1,10 @@
 # Slime
-A syntax theme for [Visual Studio Code](https://code.visualstudio.com) based on my [Atom theme](https://github.com/smlombardi/slime)
+A dark syntax/workbench theme for[Visual Studio Code](https://code.visualstudio.com) based on my [Atom theme](https://github.com/smlombardi/slime)
 
-Optimized for SCSS, HTML, PHP, and JS files.
+Optimized for SCSS, HTML, JS, TS, Markdown, and PHP files.
 
-Font used in screenshots is <a href="https://github.com/tonsky/FiraCode">Fira Code</a> Light.
+Font used in screenshots is [IBM Plex Mono](https://github.com/IBM/type).
 
-2.0+: Now includes Workbench Colors to match:
 
 ### Workbench
 ![Screenshot](https://github.com/smlombardi/theme-slime/raw/master/screenshots/screenshot.png)
@@ -20,6 +19,9 @@ Font used in screenshots is <a href="https://github.com/tonsky/FiraCode">Fira Co
 
 ### JS
 ![Screenshot](https://github.com/smlombardi/theme-slime/raw/master/screenshots/js.png)
+
+### Typescript
+![Screenshot](https://github.com/smlombardi/theme-slime/raw/master/screenshots/ts.png)
 
 ### PHP
 ![Screenshot](https://github.com/smlombardi/theme-slime/raw/master/screenshots/php.png)
