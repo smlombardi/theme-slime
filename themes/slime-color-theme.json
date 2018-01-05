@@ -25,7 +25,7 @@
 		"editorHoverWidget.border": "#95A29D",
 		"editorHoverWidget.background": "#282e2f",
 		"editorIndentGuide.background": "#3c4140",
-		"editorGutter.background": "#3a413f47",
+		"editorGutter.background": "#282d2e",
     "editorLineNumber.foreground": "#9ba2a04d",
 		"editorSuggestWidget.background": "#282e2f",
 		"editorSuggestWidget.selectedBackground": "#405c50",
