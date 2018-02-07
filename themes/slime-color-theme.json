@@ -1,7 +1,7 @@
 {
 	"type": "dark",
 	"colors": {
-    "activityBar.background": "#2f3737",
+		"activityBar.background": "#2f3737",
 		"activityBarBadge.background": "#a03f9b",
 		"activityBarBadge.foreground": "#ffffff",
 		"badge.background": "#90599B",
@@ -21,13 +21,14 @@
 		"editor.wordHighlightBackground": "#4d553b66",
 		"editorError.foreground": "#b64e4e",
 		"editorCodeLens.foreground": "#7b8280",
+		"editorWarning.foreground": "#91b147",
 		"editorCursor.foreground": "#a8df5a",
 		"editorGroupHeader.tabsBackground": "#282e2f",
 		"editorHoverWidget.border": "#95A29D",
 		"editorHoverWidget.background": "#282e2f",
 		"editorIndentGuide.background": "#3c4140",
 		"editorGutter.background": "#282d2e",
-    "editorLineNumber.foreground": "#9ba2a04d",
+		"editorLineNumber.foreground": "#9ba2a04d",
 		"editorSuggestWidget.background": "#282e2f",
 		"editorSuggestWidget.selectedBackground": "#405c50",
 		"editorSuggestWidget.border": "#95A29D",
@@ -53,9 +54,9 @@
 		"notification.warningBackground": "#a56300",
 		"pickerGroup.foreground": "#9fb283",
 		"list.hoverBackground": "#405c5033",
-    "sideBar.background": "#293030",
+		"sideBar.background": "#293030",
 		"sideBar.border": "#343b3cee",
-    "sideBarSectionHeader.background": "#46524f69",
+		"sideBarSectionHeader.background": "#46524f69",
 		"sideBarTitle.foreground": "#ffffff",
 		"statusBar.background": "#282e2f",
 		"statusBar.debuggingBackground": "#cd6564",
@@ -195,7 +196,6 @@
 				"foreground": "#b4b4b4"
 			}
 		},
-
 		{
 			"name": "Keyword Control",
 			"scope": "keyword.control",
@@ -274,7 +274,6 @@
 				"fontStyle": "italic"
 			}
 		},
-
 		{
 			"name": "Literal Key",
 			"scope": [
@@ -294,8 +293,6 @@
 				"foreground": "#C7AF3F"
 			}
 		},
-
-
 		{
 			"name": "JS Support Variable Object Process",
 			"scope": "support.variable.object.process.js",
@@ -310,7 +307,6 @@
 				"foreground": "#c5a46f"
 			}
 		},
-
 		{
 			"name": "Entity name type",
 			"scope": "entity.name.type",
@@ -360,7 +356,6 @@
 				"foreground": "#E6DDA8"
 			}
 		},
-
 		{
 			"name": "class",
 			"scope": "block.variable.other.object.class.declaration.property.method.ts,   block.variable.other.object.class.declaration.method.ts,   block.variable.other.object.array.literal.class.declaration.method.var.expr.ts,   block.variable.class.declaration.method.parameter.arrow",
@@ -537,7 +532,6 @@
 				"foreground": "#AB6767"
 			}
 		},
-
 		{
 			"name": "SCSS Attribute Value",
 			"scope": "string.quoted.double.attribute-value.scss",
