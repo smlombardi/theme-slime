@@ -22,6 +22,7 @@
 		"editorError.foreground": "#b64e4e",
 		"editorCodeLens.foreground": "#7b8280",
 		"editorWarning.foreground": "#91b147",
+		"editorActiveLineNumber.foreground": "#626a6a",
 		"editorCursor.foreground": "#a8df5a",
 		"editorGroupHeader.tabsBackground": "#282e2f",
 		"editorHoverWidget.border": "#95A29D",
@@ -47,11 +48,6 @@
 		"list.hoverForeground": "#e0e0e0",
 		"input.background": "#24292a",
 		"input.border": "#37413F",
-		"notification.background": "#3a413f",
-		"notification.errorBackground": "#9b4646",
-		"notification.buttonBackground": "#156361",
-		"notification.infoBackground": "#526e99",
-		"notification.warningBackground": "#a56300",
 		"pickerGroup.foreground": "#9fb283",
 		"list.hoverBackground": "#405c5033",
 		"sideBar.background": "#293030",
@@ -91,11 +87,6 @@
 		"gitDecoration.untrackedResourceForeground": "#7E935A"
 	},
 	"tokenColors": [
-		{
-			"settings": {
-				"foreground": "#e0e0e0ff"
-			}
-		},
 		{
 			"name": "Text",
 			"scope": "  variable.parameter.function,   text.html.basic,   text,   source",
