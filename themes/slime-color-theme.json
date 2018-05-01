@@ -1,13 +1,14 @@
 {
 	"type": "dark",
 	"colors": {
-		"activityBar.background": "#2f3737",
+		"activityBar.background": "#2d3535",
 		"activityBarBadge.background": "#a03f9b",
+		"activityBar.foreground": "#616b67",
 		"activityBarBadge.foreground": "#ffffff",
 		"badge.background": "#90599B",
 		"badge.foreground": "#eeeeee",
 		"button.background": "#2F6260",
-		"editor.background": "#24292a",
+		"editor.background": "#24292b",
 		"editorBracketMatch.border": "#5c6563EE",
 		"editorBracketMatch.background": "#161919",
 		"editor.findMatchHighlightBackground": "#6A9A8433",
@@ -22,20 +23,20 @@
 		"editorError.foreground": "#b64e4e",
 		"editorCodeLens.foreground": "#7b8280",
 		"editorWarning.foreground": "#91b147",
-		"editorActiveLineNumber.foreground": "#626a6a",
+		"editorLineNumber.activeForeground": "#626a6a",
 		"editorCursor.foreground": "#a8df5a",
 		"editorGroupHeader.tabsBackground": "#282e2f",
 		"editorHoverWidget.border": "#95A29D",
 		"editorHoverWidget.background": "#282e2f",
 		"editorIndentGuide.background": "#3c4140",
-		"editorGutter.background": "#282d2e",
+		"editorGutter.background": "#24292b",
 		"editorLineNumber.foreground": "#9ba2a04d",
 		"editorSuggestWidget.background": "#282e2f",
 		"editorSuggestWidget.selectedBackground": "#405c50",
 		"editorSuggestWidget.border": "#95A29D",
 		"editorWhitespace.foreground": "#3b3a32",
 		"editorWidget.background": "#282e2f",
-		"focusBorder": "#739f9e",
+		"focusBorder": "#3d5252",
 		"foreground": "#9CA2A0",
 		"input.foreground": "#e1e1e1",
 		"inputOption.activeBorder": "#a03f9b",
@@ -50,9 +51,9 @@
 		"input.border": "#37413F",
 		"pickerGroup.foreground": "#9fb283",
 		"list.hoverBackground": "#405c5033",
-		"sideBar.background": "#293030",
+		"sideBar.background": "#242b2b",
 		"sideBar.border": "#343b3cee",
-		"sideBarSectionHeader.background": "#46524f69",
+		"sideBarSectionHeader.background": "#353d3a",
 		"sideBarTitle.foreground": "#ffffff",
 		"statusBar.background": "#282e2f",
 		"statusBar.debuggingBackground": "#cd6564",
@@ -205,7 +206,14 @@
 			"name": "Storage Type",
 			"scope": "storage.type",
 			"settings": {
-				"foreground": "#e1a170"
+				"foreground": "#d88f56"
+			}
+		},
+		{
+			"name": "Storage Type Function Arrow",
+			"scope": "storage.type.function.arrow.ts",
+			"settings": {
+				"foreground": "#df7f37"
 			}
 		},
 		{
@@ -247,7 +255,7 @@
 			"name": "Variables",
 			"scope": "variable, variable.other.readwrite.js, punctuation.definition.variable.php, variable.other, support.variable",
 			"settings": {
-				"foreground": "#B69094"
+				"foreground": "#be9296"
 			}
 		},
 		{
@@ -271,7 +279,8 @@
 				"meta.object-literal.key",
 				"meta.object.member.object-literal.key",
 				"meta.object-literal.key.js entity.name.function.js",
-				"meta.object-literal.key.ts string.quoted.double.ts"
+				"meta.object-literal.key.ts string.quoted.double.ts",
+				"meta.object.member"
 			],
 			"settings": {
 				"foreground": "#AC9E8C"
@@ -323,7 +332,7 @@
 			"name": "ts decorator",
 			"scope": "entity.name.function.ts, punctuation.decorator.ts",
 			"settings": {
-				"foreground": "#9CAE8A"
+				"foreground": "#a0c080"
 			}
 		},
 		{
@@ -1072,7 +1081,7 @@
 			"name": "HTML Tag Name",
 			"scope": "entity.name.tag, keyword.control.html.elements, entity.name.tag.inline.any.html, entity.name.tag.block.any.html",
 			"settings": {
-				"foreground": "#C4B268"
+				"foreground": "#c9b567"
 			}
 		},
 		{
@@ -1086,7 +1095,7 @@
 			"name": "HTML Tag Attribute Name",
 			"scope": "  meta.tag.any.html entity.other.attribute-name.html,   meta.tag.block.any.html entity.other.attribute-name.html,   meta.tag.inline.any.html entity.other.attribute-name.html,   meta.tag.structure.any.html entity.other.attribute-name.html,  meta.tag.other.html entity.other.attribute-name.html,  source.js.embedded.html entity.other.attribute-name.html,  entity.other.attribute-name.html, source.ts entity.other.attribute-name, entity.other.attribute-name.id.html, entity.other.attribute-name.js",
 			"settings": {
-				"foreground": "#98AA87"
+				"foreground": "#9ab383"
 			}
 		},
 		{
