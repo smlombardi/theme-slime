@@ -107,7 +107,7 @@
   "tokenColors": [
     {
       "name": "Text",
-      "scope": "  variable.parameter.function,   text.html.basic,   text,   source",
+      "scope": "variable.parameter.function,   text.html.basic,   text,   source",
       "settings": {
         "foreground": "#e1e2de"
       }
@@ -235,7 +235,7 @@
     },
     {
       "name": "Strings",
-      "scope": "  string, string.quoted.double, string.quoted.single, string.quoted.double.json, string.quoted.single.css,  string.quoted.single.js, string.quoted.single.scss, constant.character.escape, constant.character.escape.css,   constant.character.escape.scss,  constant.other.symbol, invalid.illegal.bad-ampersand.html",
+      "scope": "string, string.quoted.double, string.quoted.single, string.quoted.double.json, string.quoted.single.css,  string.quoted.single.js, string.quoted.single.scss, constant.character.escape, constant.character.escape.css,   constant.character.escape.scss,  constant.other.symbol, invalid.illegal.bad-ampersand.html",
       "settings": {
         "foreground": "#8CAEC1"
       }
@@ -374,6 +374,13 @@
       }
     },
     {
+      "name": "TS read/write alias",
+      "scope": "variable.other.readwrite.alias.ts",
+      "settings": {
+        "foreground": "#8ab4a4"
+      }
+    },
+    {
       "name": "class",
       "scope": "block.variable.other.object.class.declaration.property.method.ts,   block.variable.other.object.class.declaration.method.ts,   block.variable.other.object.array.literal.class.declaration.method.var.expr.ts,   block.variable.class.declaration.method.parameter.arrow",
       "settings": {
@@ -388,22 +395,29 @@
       }
     },
     {
+      "name": "TS Type/Class",
+      "scope": "entity.name.type.class",
+      "settings": {
+        "foreground": "#98c08c"
+      }
+    },
+    {
       "name": "CSS",
-      "scope": "  source.css",
+      "scope": "source.css",
       "settings": {
         "foreground": "#efefef"
       }
     },
     {
       "name": "CSS Class Selector",
-      "scope": "  meta.selector,   entity.other.attribute-name.class.css,   entity.other.attribute-name.parent-selector-suffix.scss",
+      "scope": "meta.selector,   entity.other.attribute-name.class.css,   entity.other.attribute-name.parent-selector-suffix.scss",
       "settings": {
         "foreground": "#B8CA9C"
       }
     },
     {
       "name": "CSS Class Selector Punctuation",
-      "scope": "  entity.scss.meta.property-list.punctuation.other.attribute-name.class.css.definition, entity.punctuation.other.attribute-name.class.css.definition,   punctuation.definition.entity.css, meta.selector.css",
+      "scope": "entity.scss.meta.property-list.punctuation.other.attribute-name.class.css.definition, entity.punctuation.other.attribute-name.class.css.definition,   punctuation.definition.entity.css, meta.selector.css",
       "settings": {
         "foreground": "#AFCA84"
       }
@@ -558,7 +572,7 @@
     },
     {
       "name": "SCSS Function",
-      "scope": "  support.function.misc.scss,   keyword.control.at-rule.function.scss,   keyword.control.at-rule.function.scss punctuation.definition,   entity.name.function.scss",
+      "scope": "support.function.misc.scss,   keyword.control.at-rule.function.scss,   keyword.control.at-rule.function.scss punctuation.definition,   entity.name.function.scss",
       "settings": {
         "foreground": "#ccc379"
       }
@@ -798,14 +812,14 @@
     },
     {
       "name": "Regular Expression Quantifier",
-      "scope": "  keyword.operator.quantifier.regexp",
+      "scope": "keyword.operator.quantifier.regexp",
       "settings": {
         "foreground": "#D4C162"
       }
     },
     {
       "name": "Regular Expression Brackets",
-      "scope": "  punctuation.definition.character-class.regexp",
+      "scope": "punctuation.definition.character-class.regexp",
       "settings": {
         "foreground": "#CD9081"
       }
@@ -980,7 +994,7 @@
     },
     {
       "name": "Markdown Link Url",
-      "scope": "  meta.link,   meta.paragraph.inline.link.underline.detected-link,  markup.underline.link.image.markdown",
+      "scope": "meta.link,   meta.paragraph.inline.link.underline.detected-link,  markup.underline.link.image.markdown",
       "settings": {
         "foreground": "#B2885F"
       }
@@ -1054,7 +1068,7 @@
     },
     {
       "name": "Logical Operator",
-      "scope": "  keyword.operator.comparison,   keyword.operator.logical,  keyword.operator.ternary",
+      "scope": "keyword.operator.comparison,   keyword.operator.logical,  keyword.operator.ternary",
       "settings": {
         "foreground": "#CCD2BE"
       }
@@ -1082,7 +1096,7 @@
     },
     {
       "name": "JSON quotes",
-      "scope": "  meta.structure.dictionary.json support.type.property-name.json punctuation.support.type.property-name.begin.json,  meta.structure.dictionary.json support.type.property-name.json punctuation.support.type.property-name.end.json,  meta.structure.dictionary.value.json string.quoted.double.json punctuation.definition.string.begin.json,  meta.structure.dictionary.value.json string.quoted.double.json punctuation.definition.string.end.json",
+      "scope": "meta.structure.dictionary.json support.type.property-name.json punctuation.support.type.property-name.begin.json,  meta.structure.dictionary.json support.type.property-name.json punctuation.support.type.property-name.end.json,  meta.structure.dictionary.value.json string.quoted.double.json punctuation.definition.string.begin.json,  meta.structure.dictionary.value.json string.quoted.double.json punctuation.definition.string.end.json",
       "settings": {
         "foreground": "#AFAFAF"
       }
@@ -1110,7 +1124,7 @@
     },
     {
       "name": "HTML Tag Attribute Name",
-      "scope": "  meta.tag.any.html entity.other.attribute-name.html,   meta.tag.block.any.html entity.other.attribute-name.html,   meta.tag.inline.any.html entity.other.attribute-name.html,   meta.tag.structure.any.html entity.other.attribute-name.html,  meta.tag.other.html entity.other.attribute-name.html,  source.js.embedded.html entity.other.attribute-name.html,  entity.other.attribute-name.html, source.ts entity.other.attribute-name, entity.other.attribute-name.id.html, entity.other.attribute-name.js",
+      "scope": "meta.tag.any.html entity.other.attribute-name.html,   meta.tag.block.any.html entity.other.attribute-name.html, meta.tag.inline.any.html entity.other.attribute-name.html, meta.tag.structure.any.html entity.other.attribute-name.html,  meta.tag.other.html entity.other.attribute-name.html, source.js.embedded.html entity.other.attribute-name.html,  entity.other.attribute-name.html, source.ts entity.other.attribute-name, entity.other.attribute-name.id.html, entity.other.attribute-name.js",
       "settings": {
         "foreground": "#9ab383"
       }
