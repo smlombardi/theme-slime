@@ -1,5 +1,5 @@
 # Slime
-A dark syntax/workbench theme for[Visual Studio Code](https://code.visualstudio.com) based on my [Atom theme](https://github.com/smlombardi/slime)
+A dark syntax/workbench theme for [Visual Studio Code](https://code.visualstudio.com) based on my [Atom theme](https://github.com/smlombardi/slime)
 
 Optimized for SCSS, HTML, JS, TS, Markdown, and PHP files.
 
